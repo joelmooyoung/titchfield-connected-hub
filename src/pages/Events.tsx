@@ -1,9 +1,95 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Calendar, MapPin, Clock, Users, Star, Info } from "lucide-react";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Calendar, MapPin, Clock, Users, Star, Info, CalendarDays } from "lucide-react";
 
 const Events = () => {
+  const homecomingSchedule = [
+    {
+      date: "March 29, 2026",
+      event: "Meet & Greet",
+      location: "Bentley's, Bryan's Bay",
+      time: "All Day",
+      type: "Social"
+    },
+    {
+      date: "March 29, 2026", 
+      event: "Portland 5K Run/Walk and 10K Run",
+      location: "Port Antonio",
+      time: "Morning",
+      type: "Sports"
+    },
+    {
+      date: "March 30, 2026",
+      event: "Titchfield Day Parade",
+      location: "Port Antonio",
+      time: "All Day",
+      type: "Cultural"
+    },
+    {
+      date: "March 30-31, 2026",
+      event: "Career Workshops",
+      location: "THS Campus",
+      time: "Business Hours",
+      type: "Educational"
+    },
+    {
+      date: "April 1, 2026",
+      event: "Grand Gala Dinner",
+      location: "Jamaica Palace Hotel",
+      time: "Evening",
+      type: "Formal"
+    },
+    {
+      date: "April 2, 2026",
+      event: "WAGGLAS Health Fair",
+      location: "THS Campus",
+      time: "All Day",
+      type: "Health"
+    },
+    {
+      date: "April 3, 2026",
+      event: "Sports Day (Hosted by Class of '86)",
+      location: "THS Campus",
+      time: "All Day",
+      type: "Sports"
+    },
+    {
+      date: "April 4, 2026",
+      event: "Family Fun Day",
+      location: "THS Campus",
+      time: "All Day",
+      type: "Family"
+    },
+    {
+      date: "April 5, 2026",
+      event: "Thanksgiving Service",
+      location: "Christ Church Anglican",
+      time: "Morning",
+      type: "Religious"
+    }
+  ];
+
+  const getEventTypeBadge = (type: string) => {
+    const colorMap: { [key: string]: string } = {
+      Social: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300",
+      Sports: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300",
+      Cultural: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300",
+      Educational: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300",
+      Formal: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300",
+      Health: "bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-300",
+      Family: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300",
+      Religious: "bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300"
+    };
+    
+    return (
+      <Badge className={`${colorMap[type]} text-xs px-2 py-1`}>
+        {type}
+      </Badge>
+    );
+  };
   const upcomingEvents = [
     {
       title: "SAVE THE DATE: Homecoming Reunion 2026",
@@ -144,6 +230,69 @@ const Events = () => {
               </div>
             </Card>
           ))}
+        </section>
+
+        {/* Detailed Homecoming Schedule */}
+        <section className="mb-16">
+          <div className="flex items-center space-x-2 mb-8">
+            <CalendarDays className="h-6 w-6 text-primary" />
+            <h2 className="font-display text-3xl font-bold text-primary">
+              Homecoming 2026 - Detailed Schedule
+            </h2>
+          </div>
+          
+          <Card className="overflow-hidden">
+            <CardHeader>
+              <CardTitle className="text-2xl text-primary">
+                Event Schedule & Details
+              </CardTitle>
+              <p className="text-muted-foreground">
+                Complete breakdown of all Homecoming activities with dates, times, and locations
+              </p>
+            </CardHeader>
+            <CardContent className="p-0">
+              <ScrollArea className="h-96">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead className="w-[140px]">Date</TableHead>
+                      <TableHead>Event</TableHead>
+                      <TableHead>Location</TableHead>
+                      <TableHead>Time</TableHead>
+                      <TableHead>Type</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {homecomingSchedule.map((event, index) => (
+                      <TableRow key={index} className="hover:bg-muted/50">
+                        <TableCell className="font-medium text-sm">
+                          {event.date}
+                        </TableCell>
+                        <TableCell className="font-semibold text-primary">
+                          {event.event}
+                        </TableCell>
+                        <TableCell className="text-sm">
+                          <div className="flex items-center space-x-1">
+                            <MapPin className="h-3 w-3 text-muted-foreground" />
+                            <span>{event.location}</span>
+                          </div>
+                        </TableCell>
+                        <TableCell className="text-sm">
+                          <div className="flex items-center space-x-1">
+                            <Clock className="h-3 w-3 text-muted-foreground" />
+                            <span>{event.time}</span>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          {getEventTypeBadge(event.type)}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </ScrollArea>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Upcoming Events */}
