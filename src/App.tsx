@@ -12,6 +12,7 @@ import Academics from "./pages/Academics";
 import StudentLife from "./pages/StudentLife";
 import News from "./pages/News";
 import Sports from "./pages/Sports";
+import PastPrincipals from "./pages/PastPrincipals";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
               <Route path="/alumni" element={<Alumni />} />
               <Route path="/academics" element={<Academics />} />
               <Route path="/student-life" element={<StudentLife />} />
+              <Route path="/past-principals" element={<PastPrincipals />} />
               {/* Main Pages */}
               <Route path="/sports" element={<Sports />} />
               <Route path="/news" element={<News />} />
