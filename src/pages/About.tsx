@@ -8,66 +8,67 @@ import {
   Clock,
   MapPin,
   Star,
-  Target
+  Target,
+  Trophy
 } from "lucide-react";
 
 const About = () => {
   const milestones = [
-    { year: "1890", event: "School Founded", description: "Titchfield High School established in Port Antonio" },
-    { year: "1920", event: "First Graduates", description: "First class of students graduate with distinction" },
-    { year: "1950", event: "Campus Expansion", description: "Major expansion of facilities and programs" },
-    { year: "1975", event: "Co-Educational", description: "School becomes fully co-educational" },
-    { year: "2000", event: "Technology Integration", description: "Modern computer labs and internet connectivity" },
-    { year: "2015", event: "STEM Excellence", description: "New science and technology center opens" },
-    { year: "2020", event: "Digital Learning", description: "Full digital learning platform implementation" },
-    { year: "2024", event: "133 Years Strong", description: "Continuing tradition of academic excellence" },
+    { year: "1786", event: "School Founded", description: "Titchfield began as a 'free school' offering reading, writing, arithmetic, Greek and Latin" },
+    { year: "1883", event: "Fort George Site", description: "Jamaica School Commission acquired Fort George barracks for the school" },
+    { year: "1885", event: "Major Plant Era", description: "Major W.H. Plant served as headmaster, transforming the institution" },
+    { year: "1927", event: "Modern THS", description: "Transition to solely Titchfield High School completed" },
+    { year: "1963-64", event: "Champs Glory", description: "First and only school to win back-to-back girls' Inter-Secondary Championships" },
+    { year: "2011-12", event: "Quiz Excellence", description: "Placed second in TVJ Schools' Challenge Quiz two consecutive years" },
+    { year: "2016", event: "Quiz Champions", description: "Won TVJ Schools' Challenge Quiz - first rural school to win in nearly 20 years" },
+    { year: "2024", event: "238 Years Strong", description: "Continuing tradition of academic excellence since 1786" },
   ];
 
   const achievements = [
     {
       icon: Award,
       title: "Academic Excellence",
-      description: "Top CSEC and CAPE results in the region for 15 consecutive years",
-      stats: "95% Pass Rate"
+      description: "Average pass rates of 85% CSEC and 88% CAPE over recent years",
+      stats: "85% CSEC Pass Rate"
     },
     {
-      icon: Users,
-      title: "Global Alumni",
-      description: "15,000+ graduates serving in leadership roles worldwide",
-      stats: "50+ Countries"
+      icon: Trophy,
+      title: "Sports Champions",
+      description: "First and only school to win back-to-back Inter-Secondary girls' titles (1963-64)",
+      stats: "Historic Champions"
     },
     {
       icon: BookOpen,
-      title: "Comprehensive Programs",
-      description: "25+ subject areas from Sciences to Arts and Technology",
-      stats: "25+ Programs"
+      title: "Quiz Excellence",
+      description: "2016 TVJ Schools' Challenge Quiz winners - first rural school to win in 20 years",
+      stats: "Quiz Champions"
     },
     {
       icon: Star,
-      title: "Community Impact",
-      description: "Leading community service and outreach programs",
-      stats: "10,000+ Hours"
+      title: "Historic Legacy",
+      description: "Fifth-oldest high school in Jamaica, established 1786",
+      stats: "238 Years"
     }
   ];
 
   const leadership = [
     {
-      name: "Dr. Patricia Williams",
+      name: "Richard A. Thompson",
       position: "Principal",
-      credentials: "PhD in Educational Leadership, 25 years experience",
-      description: "Leading THS with vision for 21st-century education"
+      credentials: "Leading THS with dedication to academic excellence",
+      description: "Committed to maintaining our tradition of educational excellence and character development"
     },
     {
-      name: "Mr. Michael Thompson",
-      position: "Vice Principal (Academic)",
-      credentials: "MSc Mathematics Education, Former Head of Mathematics",
-      description: "Overseeing academic excellence and curriculum development"
+      name: "Teaching Staff",
+      position: "Faculty",
+      credentials: "Approximately 101 dedicated educators",
+      description: "Experienced professionals committed to student success and development"
     },
     {
-      name: "Mrs. Jennifer Campbell",
-      position: "Vice Principal (Administration)",
-      credentials: "MBA in Educational Management, 20 years at THS",
-      description: "Managing daily operations and student services"
+      name: "Student Body",
+      position: "Current Enrollment",
+      credentials: "Around 1,600 students in Grades 7-13",
+      description: "Diverse student community representing the best of Jamaica's youth"
     }
   ];
 
@@ -81,11 +82,12 @@ const About = () => {
               About Titchfield High School
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-              133 Years of Educational Excellence
+              238 Years of Educational Excellence
             </p>
             <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto">
-              Since 1890, Titchfield High School has been a beacon of academic excellence, 
-              character development, and community leadership in Port Antonio, Jamaica.
+              Since 1786, Titchfield High School has been a beacon of academic excellence, 
+              character development, and community leadership in Port Antonio, Jamaica. Located at 
+              22 Fort George Street on the historic site of the former Fort George barracks.
             </p>
           </div>
         </div>
@@ -116,11 +118,11 @@ const About = () => {
               
               <div className="flex items-center space-x-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">1,200+</div>
+                  <div className="text-3xl font-bold text-primary">1,600+</div>
                   <div className="text-sm text-muted-foreground">Current Students</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">85</div>
+                  <div className="text-3xl font-bold text-primary">101</div>
                   <div className="text-sm text-muted-foreground">Faculty Members</div>
                 </div>
                 <div className="text-center">
@@ -138,7 +140,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Location</h4>
-                    <p className="text-muted-foreground">Port Antonio, Portland, Jamaica</p>
+                    <p className="text-muted-foreground">22 Fort George Street, Port Antonio, Portland, Jamaica</p>
                   </div>
                 </div>
               </Card>
@@ -150,7 +152,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Founded</h4>
-                    <p className="text-muted-foreground">1890 - 133 years of excellence</p>
+                    <p className="text-muted-foreground">1786 - 238 years of excellence</p>
                   </div>
                 </div>
               </Card>
@@ -270,6 +272,76 @@ const About = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Campus Culture & Traditions */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-4xl font-bold text-primary mb-4">
+              Campus Culture & Traditions
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              The unique spirit and traditions that make THS special
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">School Nicknames</h3>
+                <p className="text-muted-foreground">
+                  Affectionately known as <strong>"Titch"</strong> or <strong>"1Titch"</strong> by students and alumni.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">School Cheers</h3>
+                <p className="text-muted-foreground">
+                  <strong>"Titchfield is the Greatest"</strong> and <strong>"Star of the East"</strong> echo through the halls.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">Historic Architecture</h3>
+                <p className="text-muted-foreground">
+                  Colonial and barrack-era architecture with Battery wall, cannons overlooking the sea, and underground cellars.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">Famous Locations</h3>
+                <p className="text-muted-foreground">
+                  "The Battery," "Bottom Road," "Portmore," and "Round a Fowl Coop" - iconic campus spots known to all students.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">Coastal Views</h3>
+                <p className="text-muted-foreground">
+                  Students can spot dolphins from school grounds, making THS one of the most scenic schools in Jamaica.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-6 hover:shadow-elegant transition-all duration-300">
+              <CardContent className="space-y-4">
+                <h3 className="font-display text-xl font-bold text-primary">School Traditions</h3>
+                <p className="text-muted-foreground">
+                  Morning devotions, "Poor Man Food" (beef cheese in coco bread), and beloved school figures like "Miss Dassa."
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

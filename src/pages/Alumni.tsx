@@ -77,46 +77,46 @@ const Alumni = () => {
 
   const notableAlumni = [
     {
-      name: "Dr. Patricia Morgan",
-      class: "1980",
-      achievement: "Nobel Prize Laureate in Medicine",
-      field: "Medical Research",
-      description: "Groundbreaking research in tropical disease prevention"
+      name: "Prof. Edward Baugh",
+      class: "1936-2023",
+      achievement: "Renowned Poet & Scholar",
+      field: "Literature",
+      description: "Distinguished University of the West Indies professor and celebrated poet"
     },
     {
-      name: "Hon. Michael Davis",
-      class: "1975",
-      achievement: "Supreme Court Justice",
+      name: "Donald J. Harris",
+      class: "Born 1938",
+      achievement: "Economist & VP Harris's Father",
+      field: "Economics",
+      description: "Distinguished economist and father of U.S. Vice President Kamala Harris"
+    },
+    {
+      name: "Michael Lee-Chin",
+      class: "Born 1951",
+      achievement: "Billionaire Businessman",
+      field: "Business & Philanthropy",
+      description: "Jamaican-Canadian billionaire businessman and philanthropist"
+    },
+    {
+      name: "Bryan Sykes",
+      class: "Appointed 2019",
+      achievement: "Chief Justice of Jamaica",
       field: "Law & Justice",
-      description: "First THS graduate appointed to the Supreme Court"
+      description: "Appointed Chief Justice of Jamaica in 2019"
     },
     {
-      name: "Prof. Jennifer Thompson",
-      class: "1985",
-      achievement: "Oxford University Professor",
-      field: "Education",
-      description: "Leading researcher in Caribbean educational development"
-    },
-    {
-      name: "Dr. Kevin Brown",
-      class: "1990",
-      achievement: "NASA Engineer",
-      field: "Space Technology",
-      description: "Lead engineer on Mars exploration missions"
-    },
-    {
-      name: "Ms. Sarah Williams",
-      class: "1995",
-      achievement: "Olympic Gold Medalist",
+      name: "Dever Orgill",
+      class: "Born 1990",
+      achievement: "International Footballer",
       field: "Athletics",
-      description: "Track and field champion representing Jamaica"
+      description: "Jamaican international footballer and national youth team captain"
     },
     {
-      name: "Mr. David Clarke",
-      class: "2000",
-      achievement: "Fortune 500 CEO",
-      field: "Business",
-      description: "Leading international technology company"
+      name: "Hope Arthurine Anderson",
+      class: "1950-2016",
+      achievement: "Physician & Chess Champion",
+      field: "Medicine & Sports",
+      description: "Physician, former Jamaican chess champion, and educator"
     }
   ];
 

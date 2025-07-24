@@ -17,10 +17,10 @@ import schoolHero from "@/assets/school-hero.jpg";
 
 const Home = () => {
   const stats = [
-    { label: "Students Enrolled", value: "1,200+", icon: Users },
-    { label: "Years of Excellence", value: "133", icon: Star },
+    { label: "Students Enrolled", value: "1,600+", icon: Users },
+    { label: "Years of Excellence", value: "238", icon: Star },
     { label: "Alumni Worldwide", value: "15,000+", icon: GraduationCap },
-    { label: "Academic Programs", value: "25+", icon: BookOpen },
+    { label: "Teaching Staff", value: "101", icon: BookOpen },
   ];
 
   const quickLinks = [
@@ -117,7 +117,7 @@ const Home = () => {
           </p>
           <p className="text-lg mb-10 text-primary-foreground/80 max-w-2xl mx-auto">
             Building tomorrow's leaders through academic excellence, character development, 
-            and community engagement since 1890.
+            and community engagement since 1786.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-3">
