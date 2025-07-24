@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+  <html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="ht-pairing-warbler hb-font-sans-serif no-js">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3KPB1N7FW"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-X3KPB1N7FW", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});gtag("config", "G-LMBT0GR7DR", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://economics.stanford.edu/user/login" />
+<link rel="icon" href="/themes/custom/stanford_basic/favicon.ico" />
+<link rel="icon" sizes="32x32" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/themes/custom/stanford_basic/img/touch-icons/apple-touch-icon-180x180.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png" />
+
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-16x16.png" sizes="16x16" />
+
+    <link rel="mask-icon" href="https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="application-name" content="Stanford University"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://www-media.stanford.edu/assets/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://www-media.stanford.edu/assets/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://www-media.stanford.edu/assets/favicon/mstile-150x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://www-media.stanford.edu/assets/favicon/mstile-310x310.png" />
+
+    <title>Log in | Department of Economics</title>
+    <link rel="stylesheet" media="all" href="/sites/economics/files/css/css_XrOv5ALchGcKRhCiIJxZnhJrGNNNezdukHM9cwZWqC8.css?delta=0&amp;language=en&amp;theme=humsci_traditional&amp;include=eJxtTksWgzAIvFA0R-LRBJWWfF4gtd6-al104Yr5MW9QlQw4PylYaT6ojgtHgkhCRlBxJgglG32so4BwfrkdH9fH1ivKeFE37TFcSUsi_4fHlR4HVbf0pIHBGkY2LhnFP1DpTk_Iecj4vvO6UhukzHvimOcSRUY_sRi1MWA9Yk4N81RahJ8bWavg5rTD1bi_A8bE2Z9VUEszFKebGqVz1xdgRW_t" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" />
+<link rel="stylesheet" media="all" href="/sites/economics/files/css/css_LKo7O8yfxKtKqYuK-o9BNIJnhElX4e4lMD1PDGBu49A.css?delta=2&amp;language=en&amp;theme=humsci_traditional&amp;include=eJxtTksWgzAIvFA0R-LRBJWWfF4gtd6-al104Yr5MW9QlQw4PylYaT6ojgtHgkhCRlBxJgglG32so4BwfrkdH9fH1ivKeFE37TFcSUsi_4fHlR4HVbf0pIHBGkY2LhnFP1DpTk_Iecj4vvO6UhukzHvimOcSRUY_sRi1MWA9Yk4N81RahJ8bWavg5rTD1bi_A8bE2Z9VUEszFKebGqVz1xdgRW_t" />
+<link rel="stylesheet" media="all" href="/sites/economics/files/css/css_xTonU2Kt_0MwlwrG3xIrq0tuU_j7yNpM91nayuDA2WE.css?delta=3&amp;language=en&amp;theme=humsci_traditional&amp;include=eJxtTksWgzAIvFA0R-LRBJWWfF4gtd6-al104Yr5MW9QlQw4PylYaT6ojgtHgkhCRlBxJgglG32so4BwfrkdH9fH1ivKeFE37TFcSUsi_4fHlR4HVbf0pIHBGkY2LhnFP1DpTk_Iecj4vvO6UhukzHvimOcSRUY_sRi1MWA9Yk4N81RahJ8bWavg5rTD1bi_A8bE2Z9VUEszFKebGqVz1xdgRW_t" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+
+
+  </head>
+            <body class="role-anonymous not-front role--anonymous">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header id="header" class="su-masthead hb-default-pattern">
+  <a href="#main-content" class="su-skiplinks ">Skip to main content</a>
+
+  <section class="su-brand-bar su-brand-bar--default">
+  <div class="su-brand-bar__container hb-page-width">
+    <a class="su-brand-bar__logo" href="https://www.stanford.edu">Stanford University</a>
+  </div>
+</section>
+
+  
+  <section class="hb-page-width hb-position-relative">
+            
+
+  
+
+
+    
+
+<div  id="block-humsci-traditional-custm-humsci-colorful-branding" class="su-lockup su-lockup--option-default">
+    <a href="https://economics.stanford.edu/"  class="su-lockup__link">
+  <div class="su-lockup__cell1">
+          <div class="su-lockup__wordmark-wrapper">
+        <span class="su-lockup__wordmark">Stanford</span>
+              </div>
+      </div><div class="su-lockup__cell2">
+        
+        <span class="su-lockup__line2" >Department of Economics</span>
+    
+          </div>    <div class="su-lockup__line5 ">School of Humanities and Sciences</div>
+  
+      </a>
+  </div>
+
+
+
+
+    
+        <div class="su-site-search" role="search">
+        <div class="views-exposed-form block-views block-custm-humsci-traditional-exposedformhs-default-searchsearch-page" data-drupal-selector="views-exposed-form-hs-default-search-search-page" id="block-custm-humsci-traditional-exposedformhs-default-searchsearch-page">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-hs-default-search-search-page-form-26jhEONDuvJLlN6os-eGDxjTdywdYROGvrpoIoqlwPk" accept-charset="UTF-8">
+  <div class="js-form-item form-item form-type-textfield js-form-type-textfield form-item-search js-form-item-search">
+      <label for="edit-search">Search</label>
+        <input data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-hs-default-search" type="submit" id="edit-submit-hs-default-search" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+  </div>
+
+
+    </div>
+    
+              
+  
+  
+
+        <nav class="hb-main-nav su-main-nav hb-main-nav--is-still-loading" aria-label="main menu">
+        <button class="hb-main-nav__toggle hb-main-nav__toggle--right " aria-expanded="true">
+      Menu
+      <span class="hb-main-nav__toggle-icon"></span>
+    </button>
+        <ul class="hb-main-nav__menu hb-main-nav__menu-lv1"><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="About1" aria-haspopup="true" aria-expanded="true">About</button><div class="hb-main-nav__menu-container" aria-labelledby="About1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/about/our-mission" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/6">Our Mission</a></li><li class="hb-main-nav__item"><a href="/about/news" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/61091">News</a></li><li class="hb-main-nav__item"><a href="/about/contact-and-location" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7331">Contact and Location</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="People1" aria-haspopup="true" aria-expanded="true">People</button><div class="hb-main-nav__menu-container" aria-labelledby="People1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/people/faculty" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/11">Faculty</a></li><li class="hb-main-nav__item"><a href="/people/emeritus-faculty" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/151">Emeritus Faculty</a></li><li class="hb-main-nav__item"><a href="/people/affiliated-faculty" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25956">Affiliated Faculty</a></li><li class="hb-main-nav__item"><a href="/people/lecturers" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/21466">Lecturers</a></li><li class="hb-main-nav__item"><a href="/people/postdoctoral-research-fellows" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25966">Postdoctoral Research Fellows</a></li><li class="hb-main-nav__item"><a href="/people/graduate-students" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7336">Graduate Students</a></li><li class="hb-main-nav__item"><a href="/people/department-administration" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/156">Administration</a></li><li class="hb-main-nav__item"><a href="/people/visitors" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25971">Visitors</a></li><li class="hb-main-nav__item"><a href="/people/phd-alumni" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25976">Ph.D. Alumni</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="Graduate1" aria-haspopup="true" aria-expanded="true">Graduate</button><div class="hb-main-nav__menu-container" aria-labelledby="Graduate1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/graduate/why-stanford" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25946">Why Stanford?</a></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/graduate/graduate-degree-programs" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/49116">Graduate Degree Programs</a><button class="hb-main-nav__button hb-nested-toggler" id="GraduateDegreePrograms23" aria-haspopup="true" aria-expanded="true">
+            Toggle Graduate Degree Programs
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="GraduateDegreePrograms23"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/graduate/graduate-degree-programs/doctoral-program" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46191">Doctoral Program</a><button class="hb-main-nav__button hb-nested-toggler" id="DoctoralProgram33-2" aria-haspopup="true" aria-expanded="true">
+            Toggle Doctoral Program
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="DoctoralProgram33-2"><ul class="hb-main-nav__menu hb-main-nav__menu-lv4"><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/doctoral-program/timetable-doctoral-degree" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46521">Timetable for Doctoral Degree</a></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/doctoral-program/graduate-degree-field-requirements" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46331">Graduate Degree Field Requirements</a></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/doctoral-program/student-life" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46506">Student Life</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/masters-program" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46176">Master&#039;s Program</a></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/phd-minor" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46181">Ph.D. Minor</a></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/joint-degree-programs" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/93001">Joint Degree Programs</a></li><li class="hb-main-nav__item"><a href="/graduate/graduate-degree-programs/joint-degree-programs" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/93331">Joint Degree Programs</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/graduate/applying-stanford" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43851">How to apply</a><button class="hb-main-nav__button hb-nested-toggler" id="Howtoapply23" aria-haspopup="true" aria-expanded="true">
+            Toggle How to apply
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="Howtoapply23"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item"><a href="/graduate/applying-stanford/frequently-asked-questions" title="Admission FAQs" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46196">Admission FAQs</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/graduate/current-student-resources" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46151">Current Student Resources</a></li><li class="hb-main-nav__item"><a href="/graduate/financial-support" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/21521">Financial Support</a></li><li class="hb-main-nav__item"><a href="/graduate/handbook-forms" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43861">Handbook &amp; Forms</a></li><li class="hb-main-nav__item"><a href="/graduate/student-placement" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7266">Student Placement</a></li><li class="hb-main-nav__item"><a href="/graduate/job-market-candidates" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43856">Job Market Candidates</a></li><li class="hb-main-nav__item"><a href="/graduate/non-matriculated-students" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43866">Non-Matriculated Students</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="Undergraduate1" aria-haspopup="true" aria-expanded="true">Undergraduate</button><div class="hb-main-nav__menu-container" aria-labelledby="Undergraduate1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/undergraduate/why-study-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25951">Why Study Economics?</a></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/undergraduate/major" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/5401">Major</a><button class="hb-main-nav__button hb-nested-toggler" id="Major24" aria-haspopup="true" aria-expanded="true">
+            Toggle Major
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="Major24"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item"><a href="/undergraduate/major/economics-ba" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/86781">Economics BA</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/economics-bs" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/86786">Economics BS</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/capstone" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/84076">Capstone</a></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/undergraduate/major/honors-program" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7341">Honors</a><button class="hb-main-nav__button hb-nested-toggler" id="Honors34-2" aria-haspopup="true" aria-expanded="true">
+            Toggle Honors
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="Honors34-2"><ul class="hb-main-nav__menu hb-main-nav__menu-lv4"><li class="hb-main-nav__item"><a href="/undergraduate/honors-program/honors-theses" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7346">Honors Theses</a></li><li class="hb-main-nav__item"><a href="/undergraduate/honors-program/honors-prize-and-award-winners" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7356">Honors Prize and Award Winners</a></li><li class="hb-main-nav__item"><a href="/undergraduate/honors-program/honors-resources" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/62916">Honors Resources</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/undergraduate/major/undergraduate-certificates" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/86791">Undergraduate Certificates</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/how-declare" title="Instructions for declaring the Econ major" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46111">How to Declare</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/transfer-credit" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46031">Transfer Credit</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/economics-common-syllabus" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46036">Economics Common Syllabus</a></li><li class="hb-main-nav__item"><a href="/undergraduate/major/preparing-graduate" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46086">Preparing to Graduate</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/undergraduate/minor" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25476">Minor</a></li><li class="hb-main-nav__item"><a href="/undergraduate-student-resources" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/91831">Undergraduate Student Resources</a></li><li class="hb-main-nav__item"><a href="/undergraduate/faq-undergraduates" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46071">FAQ for Undergraduates</a></li><li class="hb-main-nav__item"><a href="/undergraduate/forms" title="Econ undergraduate forms" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/46121">Forms</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/courses" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/16">Courses</a></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="Events1" aria-haspopup="true" aria-expanded="true">Events</button><div class="hb-main-nav__menu-container" aria-labelledby="Events1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/events/upcoming-events" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/26">Upcoming Seminars and Events</a></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/events/list-seminars" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/36">List of Seminars</a><button class="hb-main-nav__button hb-nested-toggler" id="ListofSeminars26" aria-haspopup="true" aria-expanded="true">
+            Toggle List of Seminars
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="ListofSeminars26"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item"><a href="/events/arrow-lectures" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7066">Arrow Lectures</a></li><li class="hb-main-nav__item"><a href="/events/behavioral-and-experimental" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7211">Behavioral and Experimental</a></li><li class="hb-main-nav__item"><a href="/events/department-seminar" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7071">Department Seminar</a></li><li class="hb-main-nav__item"><a href="/events/development" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7086">Development</a></li><li class="hb-main-nav__item"><a href="/events/econometrics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7221">Econometrics</a></li><li class="hb-main-nav__item"><a href="/events/economic-history" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7216">Economic History</a></li><li class="hb-main-nav__item"><a href="/events/eddie-lunch" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7206">Eddie Lunch</a></li><li class="hb-main-nav__item"><a href="/events/environmental-policy" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/90091">Environmental Policy</a></li><li class="hb-main-nav__item"><a href="/events/gsb-economic-theory" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7201">GSB Economic Theory</a></li><li class="hb-main-nav__item"><a href="/events/gsb-political-economy" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7181">GSB Political Economy</a></li><li class="hb-main-nav__item"><a href="/events/health-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/67101">Health Economics</a></li><li class="hb-main-nav__item"><a href="/events/io-public-labor-urban-and-sustainability-seminar-ioplus" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7171">Industrial Organization</a></li><li class="hb-main-nav__item"><a href="/events/international-trade" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7161">International Trade</a></li><li class="hb-main-nav__item"><a href="/events/job-market-talk" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7151">Job Market Talk</a></li><li class="hb-main-nav__item"><a href="/events/joint-applied-micro-seminar" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7076">Joint Applied Micro Seminar</a></li><li class="hb-main-nav__item"><a href="/events/junior-faculty-seminars" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/78306">Junior Faculty Seminars</a></li><li class="hb-main-nav__item"><a href="/events/labor" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7146">Labor</a></li><li class="hb-main-nav__item"><a href="/events/macroeconomics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7126">Macroeconomics</a></li><li class="hb-main-nav__item"><a href="/events/public-and-environmental-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/61">Public and Environmental</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/events/student-workshops" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/5556">Student Workshops</a><button class="hb-main-nav__button hb-nested-toggler" id="StudentWorkshops26" aria-haspopup="true" aria-expanded="true">
+            Toggle Student Workshops
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="StudentWorkshops26"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item"><a href="/events/student-workshop-applied-economics-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7191">Student Workshop - Applied</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-behavioral-and-experimental-economics-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7166">Student Workshop - Behavioral and Experimental</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-development-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7186">Student Workshop - Development</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-econometrics-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7176">Student Workshop - Econometrics</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-industrial-organization-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7156">Student Workshop - Industrial Organization</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-international-trade-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7141">Student Workshop - International Trade</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-labor-and-public-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7131">Student Workshop - Labor and Public</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-macroeconomics-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7121">Student Workshop - Macroeconomics</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-market-design-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7111">Student Workshop - Market Design</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-pat-bajari-io-lunch-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7096">Student Workshop - Pat Bajari IO Lunch</a></li><li class="hb-main-nav__item"><a href="/events/student-workshop-theory-economics-graduate-students-and-faculty-only" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7101">Student Workshop - Theory</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/seminars-events/past-seminars-and-events" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/31">Past Seminars and Events</a></li><li class="hb-main-nav__item"><a href="/site/stanford-institute-theoretical-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7241">SITE</a></li><li class="hb-main-nav__item"><a href="/seminars-events/room-reservation" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/49831">Room Reservation</a></li><li class="hb-main-nav__item"><a href="/seminars-events/department-economics-diploma-ceremony" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/85641">Commencement</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="SITE1" aria-haspopup="true" aria-expanded="true">SITE</button><div class="hb-main-nav__menu-container" aria-labelledby="SITE1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item"><a href="/site/stanford-institute-theoretical-economics" class="hb-main-nav__link" data-drupal-link-system-path="node/7241">About</a></li><li class="hb-main-nav__item"><a href="/site/site-2025" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/92771">SITE 2025</a></li><li class="hb-main-nav__item"><a href="/site/registration" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43846">Registration</a></li><li class="hb-main-nav__item"><a href="/site/plan-your-visit" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/25961">Plan Your Visit</a></li><li class="hb-main-nav__item"><a href="/site/travel-guidelines-presenters" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/71486">Travel Guidelines for Presenters</a></li><li class="hb-main-nav__item"><a href="/site/covid-19-policy-visitors" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/71681">COVID-19 Policy for Visitors</a></li><li class="hb-main-nav__item"><a href="/site/travel-allowance" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/71591">Travel Reimbursement Form</a></li><li class="hb-main-nav__item"><a href="/site/site-2024" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/85526">SITE 2024</a></li><li class="hb-main-nav__item"><a href="/site/site-2023" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/78626">SITE 2023</a></li><li class="hb-main-nav__item"><a href="https://exhibits.stanford.edu/site-archive" class="hb-main-nav__link">SITE Archives</a></li><li class="hb-main-nav__item"><a href="/site/contact-us" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/43841">Contact Us</a></li></ul></div></li><li class="hb-main-nav__item hb-main-nav__item--parent"><button class="hb-main-nav__link  hb-nested-toggler" id="Research1" aria-haspopup="true" aria-expanded="true">Research</button><div class="hb-main-nav__menu-container" aria-labelledby="Research1"><ul class="hb-main-nav__menu hb-main-nav__menu-lv2"><li class="hb-main-nav__item hb-main-nav__item--parent"><a href="/research-fields" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/5351">Research fields</a><button class="hb-main-nav__button hb-nested-toggler" id="Researchfields28" aria-haspopup="true" aria-expanded="true">
+            Toggle Research fields
+          </button><div class="hb-main-nav__menu-container" aria-labelledby="Researchfields28"><ul class="hb-main-nav__menu hb-main-nav__menu-lv3"><li class="hb-main-nav__item"><a href="/research/applied-microeconomics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/81">Applied Microeconomics</a></li><li class="hb-main-nav__item"><a href="/research/behavioral-and-experimental-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/181">Behavioral and Experimental Economics</a></li><li class="hb-main-nav__item"><a href="/research/decision-theory" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7271">Decision Theory</a></li><li class="hb-main-nav__item"><a href="/research/development-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7276">Development Economics</a></li><li class="hb-main-nav__item"><a href="/research/econometrics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/146">Econometrics</a></li><li class="hb-main-nav__item"><a href="/research/economic-history" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/176">Economic History</a></li><li class="hb-main-nav__item"><a href="/research/economics-education" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7281">Economics of Education</a></li><li class="hb-main-nav__item"><a href="/research/economics-technology" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/161">Economics of Technology</a></li><li class="hb-main-nav__item"><a href="/research/environmental-resource-and-energy-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7286">Environmental, Resource and Energy Economics</a></li><li class="hb-main-nav__item"><a href="/research/financial-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/96">Financial Economics</a></li><li class="hb-main-nav__item"><a href="/research/game-theory" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/101">Game Theory</a></li><li class="hb-main-nav__item"><a href="/research/health-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7296">Health Economics</a></li><li class="hb-main-nav__item"><a href="/research/industrial-organization" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/111">Industrial Organization</a></li><li class="hb-main-nav__item"><a href="/research/international-trade" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7301">International Trade</a></li><li class="hb-main-nav__item"><a href="/research/labor-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/86">Labor Economics</a></li><li class="hb-main-nav__item"><a href="/research/macroeconomics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7311">Macroeconomics</a></li><li class="hb-main-nav__item"><a href="/research/market-design" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7316">Market Design</a></li><li class="hb-main-nav__item"><a href="/research/microeconomic-theory" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/116">Microeconomic Theory</a></li><li class="hb-main-nav__item"><a href="/research/monetary-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/7321">Monetary Economics</a></li><li class="hb-main-nav__item"><a href="/research/political-economy" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/121">Political Economy</a></li><li class="hb-main-nav__item"><a href="/research/public-economics" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/126">Public Economics</a></li></ul></div></li><li class="hb-main-nav__item"><a href="/research/publications" class="hb-main-nav__link" hreflang="en" data-drupal-link-system-path="node/5416">Publications</a></li></ul></div></li></ul>  </nav>
+
+
+
+      </section>
+</header>
+
+  <div id="help-region" class="hb-page-width">
+    
+      <div data-drupal-messages-fallback class="hidden"></div>
+
+
+  </div>
+
+<main class="hb-page-width hb-not-layout-builder-main-content" id="main-content">
+    <div id="block-humsci-traditional-custm-humsci-colorful-page-title" class="block-core block-humsci-traditional-custm-humsci-colorful-page-title">
+  
+    
+        <div  class="block--page-title">
+    <h1>Log in</h1>
+  </div>
+
+  </div>
+<div id="block-humsci-traditional-custm-humsci-colorful-content" class="block-system block-humsci-traditional-custm-humsci-colorful-content">
+  
+    
+      <form class="user-login-form" data-drupal-selector="user-login-form" action="/user/login?destination=/sites/economics/files/styles/hs_medium_square_360x360/public%3Fh%3Db34631bd%26itok%3DXLc4nHsG%26file%3Dmedia/image/thumbnail_Donald%2520J.%2520Harris%2520%25C2%25A9DJH-web.jpg" method="post" id="user-login-form" accept-charset="UTF-8">
+  <h1 data-drupal-selector="edit-login-title">Login</h1>
+<div data-drupal-selector="edit-intro-text"><h1 data-drupal-selector="edit-0">Log in to view this page.</h1>
+<h4 data-drupal-selector="edit-1">Stanford Login</h4>
+<p data-drupal-selector="edit-2">Access this site with your Stanford ID</p>
+</div>
+<a rel="nofollow" href="/saml/login" class="samlauth-login su-button decanter-button" data-drupal-selector="edit-saml">Stanford Login</a>
+<input autocomplete="off" data-drupal-selector="form-abhdwjaxobsffp5qtkcbrjr-3wxmijtnsrbpzjtgezu" type="hidden" name="form_build_id" value="form-AbhdwJaXObSfFP5qtKcbRJr_3WxmiJTnSrbpZJTgeZU" />
+<input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form" />
+
+</form>
+
+  </div>
+
+
+</main>
+
+<footer id="footer">
+        <section id="footer__local-footer" class="hb-local-footer hb-dark-pattern">
+      <div class="hb-page-width flex-container flex-container--row-gap">
+          <div id="block-humsci-traditional-custm-undergraduatestudents" class="flex-3-of-12 block-block-content block-humsci-traditional-custm-undergraduatestudents">
+  
+      <h2 class="block__title">Undergraduate Students</h2>
+    
+      
+            <div class="body text-with-summary label-hidden"><ul><li><a href="/undergraduate/forms" data-entity-type="node" data-entity-uuid="1df00ed6-0bac-432e-9ced-ecc776b5a63a" data-entity-substitution="canonical">Forms</a></li><li><a href="/undergraduate/peer-advising" data-entity-type="node" data-entity-uuid="1c3c3fef-13bb-4f77-ac0e-451fcfb459d0" data-entity-substitution="canonical">Peer Advisors</a></li><li><a href="/undergraduate/honors-program/honors-theses" data-entity-type="node" data-entity-uuid="785c1fd5-3540-47e3-a86d-cdd0a862da7c" data-entity-substitution="canonical">Honors Theses</a></li><li><a href="/undergraduate/econ-1-introductory-economics-center-iec" data-entity-type="node" data-entity-uuid="3c208064-bf89-4c91-9dc8-c5aeafd68611" data-entity-substitution="canonical">Introductory Economics Center (IEC)</a></li><li><a href="/undergraduate/stanford-economics-association-sea" data-entity-type="node" data-entity-uuid="ea6c94b0-b05e-43e7-a6e1-73fbd21db3dd" data-entity-substitution="canonical">Student Association (SEA)</a></li><li><span class="spamspan"><span class="u">econ-undergrad</span> [at] <span class="d">stanford.edu</span><span class="t"> (econ-undergrad[at]stanford[dot]edu)</span></span></li></ul></div>
+      
+  </div>
+<div id="block-humsci-traditional-custm-graduatestudents" class="flex-3-of-12 block-block-content block-humsci-traditional-custm-graduatestudents">
+  
+      <h2 class="block__title">Graduate Students</h2>
+    
+      
+            <div class="body text-with-summary label-hidden"><ul><li><a href="/graduate/applying-stanford" data-entity-type="node" data-entity-uuid="a4cee90a-4828-41c5-87e8-ab3c08588b39" data-entity-substitution="canonical">Admissions</a></li><li><a href="/people/graduate-students" data-entity-type="node" data-entity-uuid="f4419e05-fee2-4550-9086-54d6097d4efc" data-entity-substitution="canonical">Directory</a></li><li><a href="/graduate/current-student-resources" data-entity-type="node" data-entity-uuid="7cb1a7b4-b6af-48d8-bdea-f148813ae6bb" data-entity-substitution="canonical">Student Resources</a></li><li><a href="/graduate/job-market-candidates" title="Job Market Candidates" data-entity-type="node" data-entity-uuid="3fcba167-3fb8-485e-b791-dab5819a0e98" data-entity-substitution="canonical">Job Market Candidates</a></li><li><span class="spamspan"><span class="u">econ-grad</span> [at] <span class="d">stanford.edu</span><span class="t"> (econ-grad[at]stanford[dot]edu)</span></span></li></ul></div>
+      
+  </div>
+<div id="block-humsci-traditional-custm-afterstanford" class="flex-3-of-12 block-block-content block-humsci-traditional-custm-afterstanford">
+  
+      <h2 class="block__title">After Stanford</h2>
+    
+      
+            <div class="body text-with-summary label-hidden"><ul>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="3fcba167-3fb8-485e-b791-dab5819a0e98" href="/graduate/job-market-candidates">Job Market Candidates</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="19f7877c-627d-4e56-b754-bed13e41cbc2" href="/graduate/student-placement">Student Placement</a></li>
+</ul></div>
+      
+  </div>
+<div id="block-humsci-traditional-custm-humsci-colorful-hs-contactus" class="flex-3-of-12 block-block-content block-humsci-traditional-custm-humsci-colorful-hs-contactus">
+  
+      <h2 class="block__title">Contact Us</h2>
+    
+      
+            <div class="body text-with-summary label-hidden"><p>Landau Economics Building <br>579 Jane Stanford Way <br>Stanford, CA 94305 <br><strong>Phone</strong>: 650-725-3266 <br><span class="spamspan"><span class="u">econ</span> [at] <span class="d">stanford.edu</span><span class="t"> (econ[at]stanford[dot]edu)</span></span> <br><a href="https://campus-map.stanford.edu/?id=&amp;lat=37.428621490999994&amp;lng=-122.16715865308248&amp;zoom=15&amp;srch=landau">Campus Map</a> <br><a class="fab fa-twitter-square fa-2x" href="https://twitter.com/StanfordEcon"><span class="fontawesome-icon-inline visually-hidden">Connect with us on Twitter</span></a></p></div>
+      
+  </div>
+<div id="block-humsci-traditional-custm-humscifooterblock" class="flex-6-of-12 block-block-content block-humsci-traditional-custm-humscifooterblock">
+  
+    
+      
+            <div class="body text-with-summary label-hidden"><a href="https://humsci.stanford.edu">
+
+<article class="align-center hb-media-image">
+  
+      
+                <picture>
+                  <source srcset="/sites/economics/files/styles/responsive_large/public/media/image/econ_footer-01_1.png.webp?itok=EQsERcVV 1x" media="screen and (min-width: 1200px)" type="image/webp" width="1200" height="119">
+              <source srcset="/sites/economics/files/styles/responsive_large/public/media/image/econ_footer-01_1.png.webp?itok=EQsERcVV 1x" media="screen and (min-width: 992px)" type="image/webp" width="1200" height="119">
+              <source srcset="/sites/economics/files/styles/responsive_medium/public/media/image/econ_footer-01_1.png.webp?itok=PFguRlPl 1x" media="screen and (min-width: 768px)" type="image/webp" width="992" height="98">
+              <source srcset="/sites/economics/files/styles/responsive_small/public/media/image/econ_footer-01_1.png.webp?itok=fEmLa-n7 1x" media="screen and (min-width: 576px)" type="image/webp" width="768" height="76">
+              <source srcset="/sites/economics/files/styles/responsive_default_576_/public/media/image/econ_footer-01_1.png.webp?itok=vEAyrrDO 1x" media="(min-width: 0em)" type="image/webp" width="576" height="57">
+                  <img loading="eager" width="1200" height="119" src="/sites/economics/files/styles/responsive_large/public/media/image/econ_footer-01_1.png.webp?itok=EQsERcVV" alt="Economics is part of the school of humanities and sciences">
+
+  </picture>
+
+
+      
+  </article>
+
+</a></div>
+      
+  </div>
+<div id="block-humsci-traditional-custm-footerquoteblock" class="flex-6-of-12 block-block-content block-humsci-traditional-custm-footerquoteblock">
+  
+    
+      
+            <div class="body text-with-summary label-hidden"><p><em>"The Stanford Economics Department has two central missions:&nbsp; to train students at the undergraduate and graduate level in the methods and ideas of modern economics, and to conduct both basic and applied research in economics that pushes forward the frontier of knowledge in the field."</em></p></div>
+      
+  </div>
+<div id="block-humsci-traditional-samlauth-login" class="block-stanford-samlauth block-humsci-traditional-samlauth-login">
+  
+    
+      <a rel="nofollow" href="/saml/login?destination=/user/login" class="text-align-right hs-secondary-button">SUNet Login</a>
+
+  </div>
+
+
+      </div>
+    </section>
+  
+    
+
+<section id="footer__global-footer" class="hb-global-footer su-global-footer su-global-footer--default">
+  <div class="su-global-footer__container hb-page-width">
+    <div class="su-global-footer__brand">
+<a  class="su-logo su-global-footer--default" href="https://www.stanford.edu">
+  Stanford<br>University
+</a>
+</div>
+    <div class="su-global-footer__content">
+      <nav aria-label="global footer">
+        <ul class="su-global-footer__menu su-global-footer__menu--global">
+                    <li><a class="hb-global-footer__link" href="https://www.stanford.edu">Stanford Home</a></li>
+          <li><a class="hb-global-footer__link" href="https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+          <li><a class="hb-global-footer__link" href="https://www.stanford.edu/search/">Search Stanford</a></li>
+          <li><a class="hb-global-footer__link" href="https://emergency.stanford.edu">Emergency Info</a></li>
+        </ul>
+        <ul class="su-global-footer__menu su-global-footer__menu--policy">
+          <li><a class="hb-global-footer__link" href="https://www.stanford.edu/site/terms/"
+                 title="Terms of use for sites">Terms of Use</a></li>
+          <li><a class="hb-global-footer__link" href="https://www.stanford.edu/site/privacy/"
+                 title="Privacy and cookie policy">Privacy</a></li>
+          <li><a class="hb-global-footer__link" href="https://uit.stanford.edu/security/copyright-infringement"
+                 title="Report alleged copyright infringement">Copyright</a></li>
+          <li><a class="hb-global-footer__link" href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4"
+                 title="Ownership and use of Stanford trademarks and images">Trademarks</a></li>
+          <li><a class="hb-global-footer__link" href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/"
+                 title="Non-discrimination policy">Non-Discrimination</a></li>
+          <li><a class="hb-global-footer__link" href="https://www.stanford.edu/site/accessibility"
+                 title="Report web accessibility issues">Accessibility</a></li>
+        </ul>
+      </nav>
+      <div class="su-global-footer__copyright">
+        <span>&copy; Stanford University.</span>
+        <span>&nbsp; Stanford, California 94305.</span>
+      </div>
+    </div>
+  </div>
+</section> <!-- su-global-footer end -->
+</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"user\/login","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"destination":"\/sites\/economics\/files\/styles\/hs_medium_square_360x360\/public?h=b34631bd\u0026itok=XLc4nHsG\u0026file=media\/image\/thumbnail_Donald%20J.%20Harris%20%C2%A9DJH-web.jpg"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"G-X3KPB1N7FW","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".text-long, .text-with-summary, #footer__global-footer, #header, #toolbar-administration","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-arrow-right","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":null}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"user":{"uid":0,"permissionsHash":"a038f8f2cecb048820fab77c9c1010808d6ee2a6253af9e32f09e95c308bf61c"}}</script>
+<script src="/sites/economics/files/js/js_sNowSLYCykc2DiXh-x3s3vdmCXg-gLd7KAZMmdLpZlg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=humsci_traditional&amp;include=eJxtjlFqxDAMRC-U1OyJwsRWErGyZCyZNj19s9BSdtkPgfTegCZbp1StUFf-7hN9hbDeU-mjQT5-z2k324UWKOQMzp5ewXT4glJZU6ENQ2Lxw3rkEZca1TMvK5xzosJhnXG7nc-ignXOpkEa8waRFfn-JlJJxzNu2Gn23E1khnJFsOnL28Aqj5A1eic-O9rkDfUaTbZuwzOCJg_oZr0s9eqNVNib4PzHjioYcaS_5Qcb9IMM"></script>
+
+      </body>
+</html>

@@ -17,6 +17,14 @@ import {
   Trophy
 } from "lucide-react";
 
+// Alumni photos
+import edwardBaughPhoto from "@/assets/alumni/edward-baugh.jpg";
+import donaldHarrisPhoto from "@/assets/alumni/donald-harris.jpg";
+import michaelLeeChinPhoto from "@/assets/alumni/michael-lee-chin.jpg";
+import bryanSykesPhoto from "@/assets/alumni/bryan-sykes.jpg";
+import deverOrgillPhoto from "@/assets/alumni/dever-orgill.jpg";
+import hopeAndersonPhoto from "@/assets/alumni/hope-anderson.jpg";
+
 const Alumni = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -86,42 +94,48 @@ const Alumni = () => {
       class: "1936-2023",
       achievement: "Renowned Poet & Scholar",
       field: "Literature",
-      description: "Distinguished University of the West Indies professor and celebrated poet"
+      description: "Distinguished University of the West Indies professor and celebrated poet",
+      photo: edwardBaughPhoto
     },
     {
       name: "Donald J. Harris",
       class: "Born 1938",
       achievement: "Economist & VP Harris's Father",
       field: "Economics",
-      description: "Distinguished economist and father of U.S. Vice President Kamala Harris"
+      description: "Distinguished economist and father of U.S. Vice President Kamala Harris",
+      photo: donaldHarrisPhoto
     },
     {
       name: "Michael Lee-Chin",
       class: "Born 1951",
       achievement: "Billionaire Businessman",
       field: "Business & Philanthropy",
-      description: "Jamaican-Canadian billionaire businessman and philanthropist"
+      description: "Jamaican-Canadian billionaire businessman and philanthropist",
+      photo: michaelLeeChinPhoto
     },
     {
       name: "Bryan Sykes",
       class: "Appointed 2019",
       achievement: "Chief Justice of Jamaica",
       field: "Law & Justice",
-      description: "Appointed Chief Justice of Jamaica in 2019"
+      description: "Appointed Chief Justice of Jamaica in 2019",
+      photo: bryanSykesPhoto
     },
     {
       name: "Dever Orgill",
       class: "Born 1990",
       achievement: "International Footballer",
       field: "Athletics",
-      description: "Jamaican international footballer and national youth team captain"
+      description: "Jamaican international footballer and national youth team captain",
+      photo: deverOrgillPhoto
     },
     {
       name: "Hope Arthurine Anderson",
       class: "1950-2016",
       achievement: "Physician & Chess Champion",
       field: "Medicine & Sports",
-      description: "Physician, former Jamaican chess champion, and educator"
+      description: "Physician, former Jamaican chess champion, and educator",
+      photo: hopeAndersonPhoto
     }
   ];
 
@@ -314,13 +328,12 @@ const Alumni = () => {
             {notableAlumni.map((alumnus, index) => (
               <Card key={index} className="p-6 hover:shadow-elegant transition-all duration-300">
                 <CardContent className="text-center space-y-4">
-                  <div className="bg-gradient-primary text-primary-foreground w-16 h-16 rounded-full flex items-center justify-center mx-auto">
-                    {alumnus.field === "Medical Research" && <Star className="h-8 w-8" />}
-                    {alumnus.field === "Law & Justice" && <Award className="h-8 w-8" />}
-                    {alumnus.field === "Education" && <GraduationCap className="h-8 w-8" />}
-                    {alumnus.field === "Space Technology" && <Star className="h-8 w-8" />}
-                    {alumnus.field === "Athletics" && <Trophy className="h-8 w-8" />}
-                    {alumnus.field === "Business" && <Briefcase className="h-8 w-8" />}
+                  <div className="w-24 h-24 mx-auto mb-4">
+                    <img 
+                      src={alumnus.photo} 
+                      alt={`${alumnus.name} portrait`}
+                      className="w-full h-full object-cover rounded-full border-2 border-primary/20"
+                    />
                   </div>
                   
                   <div>
@@ -328,7 +341,7 @@ const Alumni = () => {
                       {alumnus.name}
                     </h3>
                     <Badge variant="secondary" className="mt-2">
-                      Class of {alumnus.class}
+                      {alumnus.class}
                     </Badge>
                   </div>
                   
