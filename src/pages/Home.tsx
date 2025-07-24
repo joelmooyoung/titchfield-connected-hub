@@ -14,6 +14,7 @@ import {
   Heart,
   Activity
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import schoolHero from "@/assets/school-hero.jpg";
 
 const Home = () => {
@@ -195,27 +196,31 @@ const Home = () => {
                 <h2 className="font-display text-3xl font-bold text-primary">
                   Latest News
                 </h2>
-                <Button variant="link" className="text-primary">
-                  View All News
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                <Button variant="link" className="text-primary" asChild>
+                  <Link to="/news">
+                    View All News
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
                 </Button>
               </div>
               
               <div className="space-y-6">
                 {recentNews.map((news, index) => (
-                  <Card key={index} className="hover:shadow-md transition-shadow">
-                    <CardContent className="p-6">
-                      <div className="flex items-center space-x-3 mb-3">
-                        <Badge variant="secondary">{news.category}</Badge>
-                        <span className="text-sm text-muted-foreground">{news.date}</span>
-                      </div>
-                      <h3 className="font-semibold text-lg mb-2 text-primary">
-                        {news.title}
-                      </h3>
-                      <p className="text-muted-foreground text-sm">
-                        {news.excerpt}
-                      </p>
-                    </CardContent>
+                  <Card key={index} className="hover:shadow-md transition-shadow cursor-pointer group">
+                    <Link to="/news">
+                      <CardContent className="p-6">
+                        <div className="flex items-center space-x-3 mb-3">
+                          <Badge variant="secondary">{news.category}</Badge>
+                          <span className="text-sm text-muted-foreground">{news.date}</span>
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2 text-primary group-hover:text-primary/80 transition-colors">
+                          {news.title}
+                        </h3>
+                        <p className="text-muted-foreground text-sm">
+                          {news.excerpt}
+                        </p>
+                      </CardContent>
+                    </Link>
                   </Card>
                 ))}
               </div>
