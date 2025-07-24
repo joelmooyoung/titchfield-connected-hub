@@ -103,17 +103,6 @@ const Events = () => {
       status: "upcoming"
     },
     {
-      title: "Homecoming Activities Schedule 2026",
-      date: "March 29 - April 5, 2026",
-      time: "Full Week Program",
-      location: "Port Antonio & THS Campus",
-      category: "Homecoming",
-      description: "Complete schedule of Homecoming week activities including Meet & Greet, Titchfield Day Parade, Career Workshops, Grand Gala Dinner, Health Fair, Sports Day, Family Fun Day, and Thanksgiving Service.",
-      image: "/lovable-uploads/b797f563-3228-4199-96f1-823abd8c634a.png",
-      featured: false,
-      status: "upcoming"
-    },
-    {
       title: "Annual Founder's Day Celebration",
       date: "TBA 2025",
       time: "9:00 AM - 3:00 PM",
