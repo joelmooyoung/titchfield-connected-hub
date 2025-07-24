@@ -11,7 +11,7 @@ import {
   Users,
   GraduationCap
 } from "lucide-react";
-import schoolCrest from "@/assets/titchfield-official-crest.png";
+import schoolCrest from "@/assets/ths-crest-new.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
