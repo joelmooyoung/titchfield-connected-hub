@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
-import schoolCrest from "@/assets/titchfield-crest-official.png";
+import schoolCrest from "@/assets/titchfield-official-crest.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

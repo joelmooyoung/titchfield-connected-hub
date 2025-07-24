@@ -104,7 +104,7 @@ const Home = () => {
       <section className="relative h-[80vh] flex items-center justify-center">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${schoolHero})` }}
+          style={{ backgroundImage: `url(${schoolHero}?v=${Date.now()})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40"></div>
         </div>
