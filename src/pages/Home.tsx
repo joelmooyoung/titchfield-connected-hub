@@ -176,8 +176,10 @@ const Home = () => {
                   </div>
                   <h3 className="font-semibold text-lg mb-2">{link.title}</h3>
                   <p className="text-muted-foreground text-sm mb-4">{link.description}</p>
-                  <Button variant="outline" size="sm" className="group-hover:bg-primary group-hover:text-primary-foreground">
-                    Learn More
+                  <Button variant="outline" size="sm" className="group-hover:bg-primary group-hover:text-primary-foreground" asChild>
+                    <Link to={link.href}>
+                      Learn More
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>
