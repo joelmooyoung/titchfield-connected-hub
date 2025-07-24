@@ -20,8 +20,8 @@ import {
 // Alumni photos
 import edwardBaughPhoto from "@/assets/alumni/edward-baugh.jpg";
 import donaldHarrisPhoto from "@/assets/alumni/donald-harris.jpg";
-import michaelLeeChinPhoto from "@/assets/alumni/michael-lee-chin.jpg";
-import bryanSykesPhoto from "@/assets/alumni/bryan-sykes.jpg";
+import michaelLeeChinPhoto from "@/assets/alumni/michael-lee-chin-new.jpg";
+import bryanSykesPhoto from "@/assets/alumni/bryan-sykes-new.jpg";
 import deverOrgillPhoto from "@/assets/alumni/dever-orgill.jpg";
 import hopeAndersonPhoto from "@/assets/alumni/hope-anderson.jpg";
 
