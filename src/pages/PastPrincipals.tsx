@@ -9,6 +9,16 @@ import {
   Trophy
 } from "lucide-react";
 
+// Principal photos
+import williamPlantPhoto from "@/assets/principals/william-plant.jpg";
+import samBrownPhoto from "@/assets/principals/sam-brown.jpg";
+import capThomasPhoto from "@/assets/principals/cap-thomas.jpg";
+import mortimerGeddesPhoto from "@/assets/principals/mortimer-geddes.jpg";
+import lloydChinPhoto from "@/assets/principals/lloyd-chin.jpg";
+import lincolnThaxterPhoto from "@/assets/principals/lincoln-thaxter.jpg";
+import ivyMckenziePhoto from "@/assets/principals/ivy-mckenzie.jpg";
+import richardThompsonPhoto from "@/assets/principals/richard-thompson.jpg";
+
 const PastPrincipals = () => {
   const principals = [
     {
@@ -22,7 +32,8 @@ const PastPrincipals = () => {
         "Created infant, elementary, and secondary departments"
       ],
       legacy: "Plant House named in his honor",
-      description: "Major Plant laid the foundation for the school's academic and administrative structure during his transformative 42-year tenure."
+      description: "Major Plant laid the foundation for the school's academic and administrative structure during his transformative 42-year tenure.",
+      photo: williamPlantPhoto
     },
     {
       name: "Sam Brown",
@@ -34,7 +45,8 @@ const PastPrincipals = () => {
         "Contributed to early academic and extracurricular achievements"
       ],
       legacy: "Brown House named in his honor",
-      description: "Sam Brown's leadership contributed to establishing Titchfield as a premier institution in Portland."
+      description: "Sam Brown's leadership contributed to establishing Titchfield as a premier institution in Portland.",
+      photo: samBrownPhoto
     },
     {
       name: "C.A.P. Thomas",
@@ -45,7 +57,8 @@ const PastPrincipals = () => {
         "Impact recognized through house naming"
       ],
       legacy: "One of the school houses named after him",
-      description: "Though specific dates are not documented, C.A.P. Thomas made lasting contributions to Titchfield High School."
+      description: "Though specific dates are not documented, C.A.P. Thomas made lasting contributions to Titchfield High School.",
+      photo: capThomasPhoto
     },
     {
       name: "Mortimer Geddes",
@@ -58,7 +71,8 @@ const PastPrincipals = () => {
         "Guided back-to-back Girls Championships wins (1963-1964)"
       ],
       legacy: "Geddes House and Mortimer Geddes Trophy (Boys' Championship)",
-      description: "Mortimer Geddes strengthened Titchfield's competitive spirit and academic excellence during a transformative era."
+      description: "Mortimer Geddes strengthened Titchfield's competitive spirit and academic excellence during a transformative era.",
+      photo: mortimerGeddesPhoto
     },
     {
       name: "Lloyd O. Chin",
@@ -71,7 +85,8 @@ const PastPrincipals = () => {
         "Strengthened community connections"
       ],
       legacy: "Chin House named in his honor",
-      description: "Lloyd Chin's 17-year leadership focused on maintaining academic excellence while fostering holistic student development."
+      description: "Lloyd Chin's 17-year leadership focused on maintaining academic excellence while fostering holistic student development.",
+      photo: lloydChinPhoto
     },
     {
       name: "Lincoln Thaxter",
@@ -83,7 +98,8 @@ const PastPrincipals = () => {
         "Strengthened Portland community connections"
       ],
       legacy: "Continued legacy of educational excellence",
-      description: "Lincoln Thaxter led Titchfield with emphasis on academic excellence and strong community engagement."
+      description: "Lincoln Thaxter led Titchfield with emphasis on academic excellence and strong community engagement.",
+      photo: lincolnThaxterPhoto
     },
     {
       name: "Ivy McKenzie",
@@ -96,7 +112,8 @@ const PastPrincipals = () => {
         "Maintained proud school traditions"
       ],
       legacy: "Modernization and tradition balance",
-      description: "Ivy McKenzie successfully balanced modernization with maintaining Titchfield's cherished traditions."
+      description: "Ivy McKenzie successfully balanced modernization with maintaining Titchfield's cherished traditions.",
+      photo: ivyMckenziePhoto
     },
     {
       name: "Richard A. Thompson",
@@ -110,7 +127,8 @@ const PastPrincipals = () => {
         "Strengthened community involvement"
       ],
       legacy: "Current principal continuing legacy of Virtute et Eruditione",
-      description: "Richard Thompson has overseen significant milestones while continuing Titchfield's legacy of academic excellence and community engagement."
+      description: "Richard Thompson has overseen significant milestones while continuing Titchfield's legacy of academic excellence and community engagement.",
+      photo: richardThompsonPhoto
     }
   ];
 
@@ -178,24 +196,39 @@ const PastPrincipals = () => {
             {principals.map((principal, index) => (
               <Card key={index} className="hover:shadow-elegant transition-all duration-300">
                 <CardContent className="p-8">
-                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    {/* Principal Info */}
+                  <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                    {/* Principal Photo */}
                     <div className="lg:col-span-1">
-                      <div className="text-center lg:text-left">
-                        <h3 className="font-display text-2xl font-bold text-primary mb-2">
+                      <div className="text-center">
+                        <div className="w-32 h-32 mx-auto mb-4">
+                          <img 
+                            src={principal.photo} 
+                            alt={`${principal.name} portrait`}
+                            className="w-full h-full object-cover rounded-full border-4 border-primary/20 shadow-md"
+                          />
+                        </div>
+                        <h3 className="font-display text-xl font-bold text-primary mb-2">
                           {principal.name}
                         </h3>
-                        <div className="flex items-center justify-center lg:justify-start space-x-2 mb-2">
+                        <div className="flex items-center justify-center space-x-2 mb-2">
                           <Calendar className="h-4 w-4 text-muted-foreground" />
-                          <span className="text-muted-foreground">{principal.tenure}</span>
+                          <span className="text-muted-foreground text-sm">{principal.tenure}</span>
                         </div>
                         <Badge variant="secondary" className="mb-4">
                           {principal.duration}
                         </Badge>
-                        <p className="text-sm text-muted-foreground italic">
-                          {principal.description}
-                        </p>
                       </div>
+                    </div>
+
+                    {/* Principal Description */}
+                    <div className="lg:col-span-1">
+                      <div className="flex items-center mb-4">
+                        <GraduationCap className="h-5 w-5 text-primary mr-2" />
+                        <h4 className="font-semibold text-primary">About</h4>
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        {principal.description}
+                      </p>
                     </div>
 
                     {/* Achievements */}
