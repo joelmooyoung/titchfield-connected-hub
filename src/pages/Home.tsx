@@ -123,12 +123,16 @@ const Home = () => {
             in the country, fostering a legacy of learning, leadership, and community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-3">
-              Discover Our Programs
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button variant="hero" size="lg" className="text-lg px-8 py-3" asChild>
+              <Link to="/academics">
+                Discover Our Programs
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              Join Our Community
+            <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
+              <Link to="/alumni">
+                Join Our Community
+              </Link>
             </Button>
           </div>
         </div>
