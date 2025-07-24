@@ -26,11 +26,11 @@ const Footer = () => {
   ];
 
   const alumniAssociations = [
-    { name: "THS Alumni Association (Main)", href: "/alumni/main" },
-    { name: "North America Chapter", href: "/alumni/north-america" },
-    { name: "UK Chapter", href: "/alumni/uk" },
-    { name: "Canada Chapter", href: "/alumni/canada" },
-    { name: "Local Jamaica Chapter", href: "/alumni/jamaica" },
+    { name: "THS Alumni Association (Main)", href: "/alumni" },
+    { name: "North America Chapter", href: "/alumni" },
+    { name: "UK Chapter", href: "/alumni" },
+    { name: "Canada Chapter", href: "/alumni" },
+    { name: "Local Jamaica Chapter", href: "/alumni" },
   ];
 
   const socialLinks = [
