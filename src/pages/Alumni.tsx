@@ -20,10 +20,11 @@ import {
 // Alumni photos
 import edwardBaughPhoto from "@/assets/alumni/edward-baugh.jpg";
 import donaldHarrisPhoto from "@/assets/alumni/donald-harris.jpg";
-import michaelLeeChinPhoto from "@/assets/alumni/michael-lee-chin-new.jpg";
 import bryanSykesPhoto from "@/assets/alumni/bryan-sykes-new.jpg";
 import deverOrgillPhoto from "@/assets/alumni/dever-orgill.jpg";
 import hopeAndersonPhoto from "@/assets/alumni/hope-anderson.jpg";
+
+const michaelLeeChinPhoto = "/lovable-uploads/60c11692-1bdf-43c6-bd35-0944caf1de83.png";
 
 const Alumni = () => {
   useEffect(() => {
