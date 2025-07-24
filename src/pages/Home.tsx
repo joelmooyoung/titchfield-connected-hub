@@ -15,7 +15,7 @@ import {
   Activity
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import schoolHero from "@/assets/ths-hero-campus.jpg";
+import schoolHero from "@/assets/ths-aerial-campus.jpg";
 
 const Home = () => {
   const stats = [
