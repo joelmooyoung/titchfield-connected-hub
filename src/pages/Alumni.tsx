@@ -101,9 +101,9 @@ const Alumni = () => {
     {
       name: "Donald J. Harris",
       class: "Born 1938",
-      achievement: "Economist & VP Harris's Father",
+      achievement: "Economist & Former VP Harris's Father",
       field: "Economics",
-      description: "Distinguished economist and father of U.S. Vice President Kamala Harris",
+      description: "Distinguished economist and father of former U.S. Vice President Kamala Harris",
       photo: donaldHarrisPhoto
     },
     {
