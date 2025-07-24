@@ -9,7 +9,8 @@ import {
   Phone,
   MapPin,
   Users,
-  GraduationCap
+  GraduationCap,
+  Linkedin
 } from "lucide-react";
 import schoolCrest from "@/assets/ths-crest-new.png";
 
@@ -23,6 +24,7 @@ const Footer = () => {
     { name: "News & Events", href: "/news" },
     { name: "Alumni", href: "/alumni" },
     { name: "Contact", href: "/contact" },
+    { name: "LinkedIn", href: "https://linkedin.com/school/titchfield-high-school", icon: Linkedin },
   ];
 
   const alumniAssociations = [
@@ -88,12 +90,24 @@ const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <NavLink
-                    to={link.href}
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
-                  >
-                    {link.name}
-                  </NavLink>
+                  {link.icon ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm flex items-center space-x-2"
+                    >
+                      <link.icon className="h-4 w-4" />
+                      <span>{link.name}</span>
+                    </a>
+                  ) : (
+                    <NavLink
+                      to={link.href}
+                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                    >
+                      {link.name}
+                    </NavLink>
+                  )}
                 </li>
               ))}
             </ul>
