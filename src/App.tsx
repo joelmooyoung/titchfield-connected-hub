@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Alumni from "./pages/Alumni";
+import Academics from "./pages/Academics";
+import StudentLife from "./pages/StudentLife";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,8 +27,9 @@ const App = () => (
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/alumni" element={<Alumni />} />
+              <Route path="/academics" element={<Academics />} />
+              <Route path="/student-life" element={<StudentLife />} />
               {/* Placeholder routes - to be implemented */}
-              <Route path="/academics" element={<div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl">Academics Page - Coming Soon</h1></div>} />
               <Route path="/sports" element={<div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl">Sports Page - Coming Soon</h1></div>} />
               <Route path="/news" element={<div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl">News Page - Coming Soon</h1></div>} />
               <Route path="/events" element={<div className="min-h-screen flex items-center justify-center"><h1 className="text-2xl">Events Page - Coming Soon</h1></div>} />

@@ -17,10 +17,10 @@ import schoolHero from "@/assets/school-hero.jpg";
 
 const Home = () => {
   const stats = [
-    { label: "Students Enrolled", value: "1,600+", icon: Users },
-    { label: "Years of Excellence", value: "238", icon: Star },
-    { label: "Alumni Worldwide", value: "15,000+", icon: GraduationCap },
-    { label: "Teaching Staff", value: "101", icon: BookOpen },
+    { label: "Students Enrolled", value: "1,949", icon: Users },
+    { label: "Years of Excellence", value: "239", icon: Star },
+    { label: "Teaching Faculty", value: "99", icon: BookOpen },
+    { label: "Founded", value: "1786", icon: GraduationCap },
   ];
 
   const quickLinks = [
@@ -113,19 +113,20 @@ const Home = () => {
             <span className="block text-secondary">Titchfield High School</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
-            Excellence • Integrity • Achievement
+            Virtute et Eruditione • Since 1786
           </p>
-          <p className="text-lg mb-10 text-primary-foreground/80 max-w-2xl mx-auto">
-            Building tomorrow's leaders through academic excellence, character development, 
-            and community engagement since 1786.
+          <p className="text-lg mb-10 text-primary-foreground/80 max-w-3xl mx-auto">
+            Welcome to Titchfield High School, a beacon of academic excellence and tradition since 1786. 
+            Located in the heart of Port Antonio, Jamaica, we are proud to be the fifth-oldest high school 
+            in the country, fostering a legacy of learning, leadership, and community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-3">
-              Explore Our School
+              Discover Our Programs
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              Virtual Tour
+              Join Our Community
             </Button>
           </div>
         </div>
