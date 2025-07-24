@@ -17,7 +17,7 @@ const mortimerGeddesPhoto = "/lovable-uploads/8a4a4ac9-5271-4b21-8b6e-2d43f7313c
 const lloydChinPhoto = "/lovable-uploads/ec7b25bb-7589-48cb-a45a-814d92b044b6.png";
 const lincolnThaxterPhoto = "/lovable-uploads/1ec55079-55ae-4314-9b92-1db394b37ee0.png";
 import ivyMckenziePhoto from "@/assets/principals/ivy-mckenzie.jpg";
-import richardThompsonPhoto from "@/assets/principals/richard-thompson.jpg";
+const richardThompsonPhoto = "/lovable-uploads/18b2f10c-269b-4f67-aa0f-c6861b1a86a6.png";
 
 const PastPrincipals = () => {
   const principals = [
