@@ -17,6 +17,17 @@ const Events = () => {
       status: "upcoming"
     },
     {
+      title: "Homecoming Activities Schedule 2026",
+      date: "March 29 - April 5, 2026",
+      time: "Full Week Program",
+      location: "Port Antonio & THS Campus",
+      category: "Homecoming",
+      description: "Complete schedule of Homecoming week activities including Meet & Greet, Titchfield Day Parade, Career Workshops, Grand Gala Dinner, Health Fair, Sports Day, Family Fun Day, and Thanksgiving Service.",
+      image: "/lovable-uploads/b797f563-3228-4199-96f1-823abd8c634a.png",
+      featured: false,
+      status: "upcoming"
+    },
+    {
       title: "Annual Founder's Day Celebration",
       date: "TBA 2025",
       time: "9:00 AM - 3:00 PM",
@@ -143,7 +154,16 @@ const Events = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {upcomingEvents.filter(event => !event.featured).map((event, index) => (
-              <Card key={index} className="hover:shadow-elegant transition-shadow">
+              <Card key={index} className="hover:shadow-elegant transition-shadow overflow-hidden">
+                {event.image && (
+                  <div className="w-full h-48">
+                    <img 
+                      src={event.image} 
+                      alt={event.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                )}
                 <CardHeader>
                   <div className="flex items-center justify-between mb-3">
                     <Badge variant="outline">{event.category}</Badge>
