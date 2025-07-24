@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useEffect } from "react";
 import { 
   Users, 
   Globe, 
@@ -17,6 +18,10 @@ import {
 } from "lucide-react";
 
 const Alumni = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const alumniChapters = [
     {
       name: "THS Alumni Association (Main)",

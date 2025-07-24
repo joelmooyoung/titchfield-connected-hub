@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 import { 
   BookOpen, 
   Calculator, 
@@ -16,6 +17,10 @@ import {
 } from "lucide-react";
 
 const Academics = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const coreSubjects = [
     { name: "Mathematics", icon: Calculator, description: "Advanced mathematical concepts and problem-solving" },
     { name: "English Language", icon: BookOpen, description: "Communication skills and literary analysis" },

@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 import { 
   Trophy, 
   Target, 
@@ -15,6 +16,10 @@ import {
 } from "lucide-react";
 
 const Sports = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const featuredAchievements = [
     {
       title: "Eastern Athletics Championship Victory",
