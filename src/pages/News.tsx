@@ -6,6 +6,17 @@ import { ExternalLink, Calendar, Trophy, Users, Award, AlertCircle, Megaphone } 
 const News = () => {
   const featuredNews = [
     {
+      title: "SAVE THE DATE: Homecoming Reunion 2026",
+      date: "March 29 - April 5, 2026",
+      category: "Homecoming Event",
+      description: "Celebrating 240 Years (1786-2026) - Join us in Port Antonio, Jamaica for our historic Homecoming Reunion! Mark your calendars for this momentous celebration of Titchfield High School's legacy.",
+      source: "THS Administration",
+      link: "#",
+      image: "/lovable-uploads/ea54f5da-cf1f-4517-b6f9-84562cec2489.png",
+      featured: true,
+      isImageBanner: true
+    },
+    {
       title: "Historic Schools' Challenge Quiz Victory",
       date: "April 8, 2025",
       category: "Academic Achievement",
@@ -140,7 +151,17 @@ const News = () => {
                       {news.date}
                     </div>
                   </div>
-                  <div className="text-4xl mb-4">{news.image}</div>
+                  {news.isImageBanner ? (
+                    <div className="mb-4">
+                      <img 
+                        src={news.image} 
+                        alt={news.title}
+                        className="w-full h-48 object-cover rounded-lg"
+                      />
+                    </div>
+                  ) : (
+                    <div className="text-4xl mb-4">{news.image}</div>
+                  )}
                   <CardTitle className={`${news.featured ? 'text-2xl' : 'text-xl'} text-primary`}>
                     {news.title}
                   </CardTitle>
