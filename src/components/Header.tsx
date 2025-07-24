@@ -55,7 +55,7 @@ const Header = () => {
                 Titchfield High School
               </h1>
               <p className="text-sm text-muted-foreground">
-                VIRTUTE ET ERUDITIONE
+                Virtute Et Eruditione
               </p>
             </div>
           </NavLink>
