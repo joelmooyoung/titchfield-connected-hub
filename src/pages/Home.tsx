@@ -11,7 +11,8 @@ import {
   GraduationCap,
   Award,
   Target,
-  Heart
+  Heart,
+  Activity
 } from "lucide-react";
 import schoolHero from "@/assets/school-hero.jpg";
 
@@ -56,43 +57,43 @@ const Home = () => {
 
   const recentNews = [
     {
-      title: "THS Wins Regional Science Fair",
-      date: "March 15, 2024",
-      category: "Academics",
-      excerpt: "Our students excel in regional science competition with innovative projects."
+      title: "Historic Schools' Challenge Quiz Victory",
+      date: "April 8, 2025",
+      category: "Academic Achievement",
+      excerpt: "Titchfield High defeats Jamaica College 26-23 in the 2025 SCQ finals, earning recognition from Portland Municipal Corporation for this remarkable achievement."
     },
     {
-      title: "New STEM Laboratory Opens",
-      date: "March 10, 2024", 
-      category: "Infrastructure",
-      excerpt: "State-of-the-art science facility enhances learning opportunities."
-    },
-    {
-      title: "Basketball Team Advances to Finals",
-      date: "March 8, 2024",
+      title: "Eastern Athletics Championship Title",
+      date: "May 15, 2025", 
       category: "Sports",
-      excerpt: "THS basketball team secures spot in championship game."
+      excerpt: "THS boys capture the Eastern Athletics Championship with outstanding performances, including high jumper Roje Williams leading the charge."
+    },
+    {
+      title: "Alumni Achievement Recognition",
+      date: "Recent",
+      category: "Alumni News",
+      excerpt: "Marsha Jones (THS Alumna) honored as BAME Nurse of the Year for outstanding leadership in NHS South West London."
     }
   ];
 
   const upcomingEvents = [
     {
       title: "Founders Day Celebration",
-      date: "April 12, 2024",
+      date: "2025-01-15",
       time: "9:00 AM",
       location: "School Auditorium"
     },
     {
-      title: "Parent-Teacher Conference",
-      date: "April 18, 2024", 
-      time: "2:00 PM",
-      location: "Various Classrooms"
+      title: "CSEC/CAPE Registration",
+      date: "2025-08-15", 
+      time: "8:00 AM",
+      location: "Administration Building"
     },
     {
-      title: "Alumni Homecoming",
-      date: "April 25, 2024",
+      title: "Alumni Homecoming Weekend",
+      date: "2025-11-30",
       time: "6:00 PM", 
-      location: "School Grounds"
+      location: "School Grounds & Battery Wall"
     }
   ];
 
