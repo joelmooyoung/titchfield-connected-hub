@@ -24,7 +24,6 @@ const Footer = () => {
     { name: "News & Events", href: "/news" },
     { name: "Alumni", href: "/alumni" },
     { name: "Contact", href: "/contact" },
-    { name: "LinkedIn", href: "https://linkedin.com/school/titchfield-high-school", icon: Linkedin },
   ];
 
   const alumniAssociations = [
@@ -40,6 +39,7 @@ const Footer = () => {
     { name: "Twitter", icon: Twitter, href: "https://twitter.com/titchfieldhigh" },
     { name: "Instagram", icon: Instagram, href: "https://instagram.com/titchfieldhigh" },
     { name: "YouTube", icon: Youtube, href: "https://youtube.com/titchfieldhigh" },
+    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/school/titchfield-high-school" },
   ];
 
   return (
@@ -90,24 +90,12 @@ const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  {link.icon ? (
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm flex items-center space-x-2"
-                    >
-                      <link.icon className="h-4 w-4" />
-                      <span>{link.name}</span>
-                    </a>
-                  ) : (
-                    <NavLink
-                      to={link.href}
-                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
-                    >
-                      {link.name}
-                    </NavLink>
-                  )}
+                  <NavLink
+                    to={link.href}
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                  >
+                    {link.name}
+                  </NavLink>
                 </li>
               ))}
             </ul>
