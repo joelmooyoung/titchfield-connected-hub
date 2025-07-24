@@ -13,7 +13,7 @@ import {
 import williamPlantPhoto from "@/assets/principals/william-plant.jpg";
 import samBrownPhoto from "@/assets/principals/sam-brown.jpg";
 import capThomasPhoto from "@/assets/principals/cap-thomas.jpg";
-import mortimerGeddesPhoto from "@/assets/principals/mortimer-geddes.jpg";
+const mortimerGeddesPhoto = "/lovable-uploads/8a4a4ac9-5271-4b21-8b6e-2d43f7313cf5.png";
 import lloydChinPhoto from "@/assets/principals/lloyd-chin.jpg";
 import lincolnThaxterPhoto from "@/assets/principals/lincoln-thaxter.jpg";
 import ivyMckenziePhoto from "@/assets/principals/ivy-mckenzie.jpg";
