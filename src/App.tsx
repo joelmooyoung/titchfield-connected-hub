@@ -16,6 +16,9 @@ import Sports from "./pages/Sports";
 import PastPrincipals from "./pages/PastPrincipals";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Donations from "./pages/Donations";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +43,9 @@ const App = () => (
               <Route path="/news" element={<News />} />
               <Route path="/events" element={<Events />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-service" element={<TermsOfService />} />
+              <Route path="/donations" element={<Donations />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
