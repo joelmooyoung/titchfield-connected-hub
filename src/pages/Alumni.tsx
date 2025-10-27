@@ -234,6 +234,14 @@ const Alumni = () => {
       field: "Academia",
       description: "Captain of Titchfield's victorious 2016 Schools' Challenge Quiz team, leading the school to championship glory",
       photo: schoolLogo
+    },
+    {
+      name: "Dr. André Gordon",
+      class: "Titchfield Alumnus",
+      achievement: "2022 National Medallist for Science & Technology",
+      field: "Technology & Innovation",
+      description: "Founder and Managing Director of Technological Solutions Limited, recognized with Jamaica's National Medal for Science and Technology for contributions to land surveying and geospatial technology",
+      photo: schoolLogo
     }
   ];
 
