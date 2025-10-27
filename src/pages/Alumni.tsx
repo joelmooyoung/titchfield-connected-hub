@@ -140,6 +140,14 @@ const Alumni = () => {
       photo: schoolLogo
     },
     {
+      name: "Noel George Dexter",
+      class: "Titchfield Alumnus",
+      achievement: "Renowned Choral Director & Composer",
+      field: "Music & Education",
+      description: "Quintessential Port Antonio native who excelled academically and in sports at Titchfield. Founded Music Unites Jamaica Foundation; directed Alpha Boys School choir and international ensembles. His compositions blend Jamaican folk with classical traditions, creating anthems for national events. Leading music educator and cultural ambassador",
+      photo: schoolLogo
+    },
+    {
       name: "Prof. Manley West, OM",
       class: "1929-2012",
       achievement: "Pharmacologist & Research Pioneer",
