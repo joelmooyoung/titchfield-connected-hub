@@ -80,13 +80,13 @@ const Alumni = () => {
     {
       name: "THS Alumni South Florida",
       location: "Miami, Florida",
-      established: "1995",
-      members: "1,500+",
-      president: "Mr. Robert Campbell",
-      description: "Vibrant chapter serving the South Florida Caribbean community.",
+      established: "2000",
+      members: "1,000+",
+      president: "Paul 'Paca' Perry",
+      description: "Vibrant chapter serving the South Florida Caribbean community. Led $43K donation (2025) for scholarships and library, plus $5K Neville Beharie awards.",
       contact: "president@thsalumni-fl.org",
       website: "https://thsalumni-fl.org",
-      activities: ["Hurricane Relief Efforts", "Student Support", "Cultural Programs"]
+      activities: ["Hurricane Relief Efforts", "Student Support", "Scholarship Fundraising", "Cultural Programs"]
     }
   ];
 
@@ -94,9 +94,9 @@ const Alumni = () => {
     {
       name: "Prof. Edward Baugh",
       class: "1936-2023",
-      achievement: "Renowned Poet & Literary Scholar",
+      achievement: "Jamaica's Poet Laureate & Literary Scholar",
       field: "Literature & Academia",
-      description: "Distinguished UWI professor emeritus, celebrated Caribbean poet, and leading authority on Derek Walcott's work",
+      description: "UWI English professor, Jamaica's Poet Laureate (2019), and prolific scholar/poet (It Takes a Mighty Fire). Mentored Caribbean lit icons, leading authority on Derek Walcott's work",
       photo: edwardBaughPhoto
     },
     {
@@ -110,9 +110,9 @@ const Alumni = () => {
     {
       name: "Michael Lee-Chin",
       class: "Born 1951",
-      achievement: "Billionaire Philanthropist",
+      achievement: "Billionaire Philanthropist & Investor",
       field: "Business & Philanthropy",
-      description: "Jamaican-Canadian billionaire, founder of Portland Holdings, and major benefactor of educational institutions across the Caribbean",
+      description: "Self-made billionaire (net worth ~$2B), founder of Portland Holdings. Chairs Caribbean Investment Fund, major donor to UWI arts center and Jamaican education",
       photo: michaelLeeChinPhoto
     },
     {
@@ -128,7 +128,7 @@ const Alumni = () => {
       class: "1929-2012",
       achievement: "Pharmacologist & Research Pioneer",
       field: "Medical Research",
-      description: "Pioneering UWI pharmacologist renowned for cannabis-based glaucoma research and development of Canasol eye drops",
+      description: "UWI pharmacology professor who pioneered Canasol (marijuana-derived glaucoma drug). Order of Jamaica recipient; bridged academia and medicine with cannabinoid breakthroughs",
       photo: schoolLogo
     },
     {
@@ -241,6 +241,54 @@ const Alumni = () => {
       achievement: "2022 National Medallist for Science & Technology",
       field: "Technology & Innovation",
       description: "Founder and Managing Director of Technological Solutions Limited, recognized with Jamaica's National Medal for Science and Technology for contributions to land surveying and geospatial technology",
+      photo: schoolLogo
+    },
+    {
+      name: "Brittnie-Lee Duffus",
+      class: "Class of 2017 Head Girl",
+      achievement: "Emerging Higher Education Scholar",
+      field: "Academia & Research",
+      description: "Earned degrees from Tougaloo College, now pursuing PhD at Indiana University (started 2021). Emerging leader in higher education research",
+      photo: schoolLogo
+    },
+    {
+      name: "Marsha Jones",
+      class: "Titchfield Alumna",
+      achievement: "BAME Nurse of the Year 2023",
+      field: "Healthcare Leadership",
+      description: "NHS South West London Director of Quality Governance. Named BAME Nurse of the Year (2023) for leadership in empowering minority healthcare professionals",
+      photo: schoolLogo
+    },
+    {
+      name: "Andrew O'Geare",
+      class: "Class of 1983",
+      achievement: "Alumni Sports Association Leader",
+      field: "Sports Administration & Philanthropy",
+      description: "Secretary of Titchfield Past Students Sports Association (TPSSA) and VP of Alumni Association. Donated netball gear (2023) and drives funding for track/netball teams",
+      photo: schoolLogo
+    },
+    {
+      name: "Paul 'Paca' Perry",
+      class: "Titchfield Alumnus",
+      achievement: "South Florida Alumni Chapter President",
+      field: "Community Leadership & Philanthropy",
+      description: "President of South Florida Alumni Chapter since 2000. Grew chapter to 1,000+ members; led $43K donation (2025) for scholarships/library, plus $5K Neville Beharie awards (2022). Fundraising powerhouse",
+      photo: schoolLogo
+    },
+    {
+      name: "Grace Martin",
+      class: "Titchfield Alumna",
+      achievement: "Alumni Chapter Leader",
+      field: "Community Service & Philanthropy",
+      description: "Active South Florida chapter member who co-led 2025 $43K handover for student well-being and school support initiatives",
+      photo: schoolLogo
+    },
+    {
+      name: "Calvin Reece",
+      class: "Titchfield Alumnus",
+      achievement: "Alumni Chapter Leader",
+      field: "Community Service & Philanthropy",
+      description: "Active South Florida chapter member who co-led 2025 $43K handover for student well-being and school support initiatives",
       photo: schoolLogo
     }
   ];
