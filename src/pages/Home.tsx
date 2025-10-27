@@ -58,43 +58,43 @@ const Home = () => {
 
   const recentNews = [
     {
-      title: "Historic Schools' Challenge Quiz Victory",
-      date: "April 8, 2025",
+      title: "Schools' Challenge Quiz Champions 2025",
+      date: "April 9, 2025",
       category: "Academic Achievement",
-      excerpt: "Titchfield High defeats Jamaica College 26-23 in the 2025 SCQ finals, earning recognition from Portland Municipal Corporation for this remarkable achievement."
+      excerpt: "Titchfield High wins TVJ's Schools' Challenge Quiz 2025, defeating Jamaica College 26-23 in a nail-biting finale. This is the second triumph for THS in the 55-year history of the competition."
     },
     {
-      title: "Eastern Athletics Championship Title",
-      date: "May 15, 2025", 
-      category: "Sports",
-      excerpt: "THS boys capture the Eastern Athletics Championship with outstanding performances, including high jumper Roje Williams leading the charge."
+      title: "Celebrating 239 Years of Excellence",
+      date: "2025", 
+      category: "Milestone",
+      excerpt: "Since 1786, Titchfield High continues its legacy as Jamaica's fifth-oldest high school, maintaining 85% CSEC and 88% CAPE pass rates."
     },
     {
-      title: "Alumni Achievement Recognition",
-      date: "Recent",
-      category: "Alumni News",
-      excerpt: "Marsha Jones (THS Alumna) honored as BAME Nurse of the Year for outstanding leadership in NHS South West London."
+      title: "Academic Performance Excellence",
+      date: "2024-2025",
+      category: "Academics",
+      excerpt: "THS consistently achieves outstanding results with 85% pass rates in CSEC examinations and 88% in CAPE, demonstrating our commitment to academic excellence."
     }
   ];
 
   const upcomingEvents = [
     {
-      title: "Founders Day Celebration",
-      date: "2025-01-15",
+      title: "CSEC Examinations",
+      date: "2025-05-01",
       time: "9:00 AM",
-      location: "School Auditorium"
+      location: "Examination Hall"
     },
     {
-      title: "CSEC/CAPE Registration",
-      date: "2025-08-15", 
-      time: "8:00 AM",
-      location: "Administration Building"
+      title: "CAPE Examinations",
+      date: "2025-06-01", 
+      time: "9:00 AM",
+      location: "Examination Hall"
     },
     {
-      title: "Alumni Homecoming Weekend",
-      date: "2025-11-30",
+      title: "Graduation Ceremony",
+      date: "2025-07-15",
       time: "6:00 PM", 
-      location: "School Grounds & Battery Wall"
+      location: "School Grounds"
     }
   ];
 

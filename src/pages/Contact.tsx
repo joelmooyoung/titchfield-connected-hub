@@ -37,8 +37,9 @@ const Contact = () => {
                 <CardContent>
                   <p className="text-lg leading-relaxed">
                     Titchfield High School<br />
-                    Fort George, Port Antonio<br />
-                    Portland, Jamaica
+                    22 Fort George Street<br />
+                    Port Antonio, Portland<br />
+                    Jamaica
                   </p>
                 </CardContent>
               </Card>
@@ -51,9 +52,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-2">
-                  <p><strong>Main Office:</strong> (876) 993-2308</p>
-                  <p><strong>Administration:</strong> (876) 993-2685</p>
-                  <p><strong>Fax:</strong> (876) 993-2685</p>
+                  <p><strong>Main Office:</strong> (876) 993-2618</p>
+                  <p><strong>Website:</strong> titchfieldhigh.com</p>
                 </CardContent>
               </Card>
 
@@ -220,7 +220,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-lg font-semibold">
-                Principal's Emergency Line: (876) 993-2308 ext. 100
+                Main Office: (876) 993-2618
               </p>
               <p className="text-muted-foreground mt-2">
                 Available for genuine emergencies only

@@ -62,17 +62,17 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
-              Building leaders of tomorrow through excellence in education, 
-              character development, and community service since 1890.
+              Fifth-oldest high school in Jamaica, building leaders through excellence 
+              in education since 1786. Virtute et Eruditione.
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Port Antonio, Portland, Jamaica</span>
+                <span>22 Fort George Street, Port Antonio, Portland</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>(876) 123-4567</span>
+                <span>(876) 993-2618</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />

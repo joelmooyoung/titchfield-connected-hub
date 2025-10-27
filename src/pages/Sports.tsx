@@ -22,107 +22,151 @@ const Sports = () => {
 
   const featuredAchievements = [
     {
-      title: "Eastern Athletics Championship Victory",
-      date: "May 15, 2025",
-      sport: "Track & Field",
-      description: "THS boys capture the Eastern Athletics Championship with outstanding performances, led by high jumper Roje Williams.",
-      source: "Our Today",
-      link: "https://our.today/st-marys-high-girls-and-titchfield-boys-take-eastern-athletics-championship-title/",
-      icon: Activity,
-      featured: true
+      title: "Schools' Challenge Quiz Champions 2025",
+      description: "THS wins the 2025 TVJ Schools' Challenge Quiz, defeating Jamaica College 26-23 in a thrilling finale - our second championship in the competition's 55-year history.",
+      year: "2025",
+      date: "April 2025",
+      icon: Trophy,
+      category: "Academic Competition",
+      sport: "Academic Quiz",
+      featured: true,
+      source: "TVJ / Radio Jamaica News",
+      link: "https://radiojamaicanewsonline.com/local/titchfield-high-wins-tvjs-schools-challenge-quiz-2025"
     },
     {
-      title: "Table Tennis Rural Championships",
-      date: "2024",
-      sport: "Table Tennis", 
-      description: "Boys U19 Champions and Girls U19 Second Place in the rural finals, showcasing our ping pong excellence.",
-      source: "School Records",
-      link: "#",
-      icon: Target
+      title: "Schools' Challenge Quiz Victory 2016",
+      description: "First rural school to win the TVJ Schools' Challenge Quiz in nearly 20 years, establishing THS as an academic powerhouse.",
+      year: "2016",
+      date: "2016",
+      icon: Award,
+      category: "Academic Competition",
+      sport: "Academic Quiz",
+      featured: false,
+      source: "TVJ Archives",
+      link: "#"
     },
     {
-      title: "Historic Girls Championships",
+      title: "Back-to-Back Girls' Champs Winners",
+      description: "First and only school to win consecutive girls' Inter-Secondary Championships in 1963 and 1964 - a historic achievement that stands to this day.",
+      year: "1963-64",
       date: "1963-1964",
+      icon: Trophy,
+      category: "Track & Field",
       sport: "Athletics",
-      description: "First and only school to win back-to-back Inter-Secondary Schools Girls Championships, a record that still stands today.",
-      source: "Historical Records",
-      link: "#",
-      icon: Trophy
+      featured: false,
+      source: "School Archives",
+      link: "#"
+    },
+    {
+      title: "DaCosta Cup Finals Appearances",
+      description: "Qualified for three DaCosta Cup finals - 1964 (lost 2-1 to Munro College), showcasing consistent football excellence over the decades.",
+      year: "1964",
+      date: "1964",
+      icon: Trophy,
+      category: "Football",
+      sport: "Football",
+      featured: false,
+      source: "School Archives",
+      link: "#"
     }
   ];
 
   const currentSports = [
     {
-      name: "Track & Field",
-      status: "Champions",
-      description: "2025 Eastern Athletics Champions with strong participation in Inter-Secondary Schools competitions",
-      achievements: ["Eastern Champions 2025", "Roje Williams - High Jump Star"],
-      icon: Activity,
-      color: "bg-success"
+      name: "Football",
+      sport: "Football",
+      season: "DaCosta Cup Competition",
+      status: "Active",
+      achievement: "3 Finals Appearances - Historic competitor since 1950",
+      description: "One of four founding schools to contest the first DaCosta Cup campaign in 1950. Qualified for three finals, demonstrating consistent competitive excellence.",
+      icon: Trophy,
+      color: "bg-primary",
+      achievements: [
+        "3 DaCosta Cup Finals appearances",
+        "Founding member (1950)",
+        "Consistent eastern parish competitor"
+      ]
     },
     {
-      name: "Table Tennis",
-      status: "Excellent",
-      description: "Boys U19 Champions and Girls U19 Second Place in recent rural finals",
-      achievements: ["Boys U19 Champions", "Girls U19 Second Place"],
-      icon: Target,
-      color: "bg-primary"
+      name: "Track & Field",
+      sport: "Track & Field",
+      season: "Inter-Secondary Championships",
+      status: "Active",
+      achievement: "Only school with back-to-back girls' championships (1963-64)",
+      description: "Historic achievement as the first and only school to win consecutive girls' Inter-Secondary Championships.",
+      icon: Award,
+      color: "bg-success",
+      achievements: [
+        "Back-to-back Girls' Champions (1963-64)",
+        "First and only school with this record",
+        "Regular Champs competitors"
+      ]
+    },
+    {
+      name: "Academic Quiz",
+      sport: "Academic Quiz",
+      season: "TVJ Schools' Challenge Quiz",
+      status: "Champions",
+      achievement: "2-time Champions (2016, 2025)",
+      description: "Two-time champions of Jamaica's premier academic competition, defeating Jamaica College 26-23 in 2025.",
+      icon: Trophy,
+      color: "bg-secondary",
+      achievements: [
+        "2025 Champions (defeated JC 26-23)",
+        "2016 Champions (first rural school in 20 years)",
+        "Multiple top-4 finishes"
+      ]
     },
     {
       name: "Netball",
-      status: "Supported",
-      description: "Championship teams with strong alumni equipment support through TPSSA",
-      achievements: ["Alumni Equipment Support", "Active Championship Teams"],
-      icon: Volleyball,
-      color: "bg-secondary"
-    },
-    {
-      name: "Basketball",
+      sport: "Netball",
+      season: "Parish & Eastern Championships",
       status: "Active",
-      description: "Developing basketball program with growing participation",
-      achievements: ["Growing Program", "Youth Development"],
+      achievement: "Consistent parish-level competitors",
+      description: "Regular participants in eastern parish and regional netball competitions.",
       icon: Users,
-      color: "bg-accent"
-    },
-    {
-      name: "Football",
-      status: "Active", 
-      description: "Traditional football program fostering teamwork and athletic development",
-      achievements: ["Team Building", "Athletic Development"],
-      icon: Users,
-      color: "bg-muted"
+      color: "bg-accent",
+      achievements: [
+        "Parish-level competitions",
+        "Eastern championship participation",
+        "School league champions"
+      ]
     },
     {
       name: "Cricket",
+      sport: "Cricket",
+      season: "Inter-School Matches",
       status: "Active",
-      description: "Cricket program maintaining sporting traditions and skills development",
-      achievements: ["Traditional Sport", "Skills Development"],
-      icon: Users,
-      color: "bg-gradient-primary"
+      achievement: "Regular Eastern parish competitors",
+      description: "Active participation in inter-school cricket matches and eastern parish competitions.",
+      icon: Trophy,
+      color: "bg-primary",
+      achievements: [
+        "Inter-school match participation",
+        "Eastern parish competitions",
+        "School league involvement"
+      ]
     }
   ];
 
   const upcomingSports = [
     {
-      event: "Inter-Secondary Schools Championships",
+      name: "Inter-School Athletics",
       date: "March 2025",
-      sport: "Track & Field",
-      location: "National Stadium",
-      description: "Annual championships featuring the best high school athletes across Jamaica"
+      location: "Stadium East",
+      description: "Annual athletics competition"
     },
     {
-      event: "Rural Table Tennis Championships",
-      date: "April 2025", 
-      sport: "Table Tennis",
+      name: "DaCosta Cup Season",
+      date: "September 2025",
       location: "Various Venues",
-      description: "Defending our boys championship and improving girls standing"
+      description: "Football championship competition"
     },
     {
-      event: "Schools Netball Competition",
-      date: "February 2025",
-      sport: "Netball",
-      location: "Parish Courts",
-      description: "Utilizing new equipment donated by alumni association"
+      name: "Parish Netball Finals",
+      date: "May 2025",
+      location: "Portland Sports Complex",
+      description: "Parish netball championship"
     }
   ];
 
@@ -286,8 +330,8 @@ const Sports = () => {
                       <Calendar className="h-5 w-5" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-primary">{event.event}</h3>
-                      <Badge variant="secondary">{event.sport}</Badge>
+                      <h3 className="font-semibold text-lg text-primary">{event.name}</h3>
+                      <Badge variant="secondary">Sports Event</Badge>
                     </div>
                   </div>
                   <div className="space-y-2 text-sm text-muted-foreground">

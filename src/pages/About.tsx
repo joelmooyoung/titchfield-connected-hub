@@ -19,9 +19,9 @@ const About = () => {
     { year: "1885", event: "Major Plant Era", description: "Major W.H. Plant served as headmaster, transforming the institution" },
     { year: "1927", event: "Modern THS", description: "Transition to solely Titchfield High School completed" },
     { year: "1963-64", event: "Champs Glory", description: "First and only school to win back-to-back girls' Inter-Secondary Championships" },
-    { year: "2011-12", event: "Quiz Excellence", description: "Placed second in TVJ Schools' Challenge Quiz two consecutive years" },
     { year: "2016", event: "Quiz Champions", description: "Won TVJ Schools' Challenge Quiz - first rural school to win in nearly 20 years" },
-    { year: "2024", event: "238 Years Strong", description: "Continuing tradition of academic excellence since 1786" },
+    { year: "2025", event: "Quiz Champions Again", description: "Second Schools' Challenge Quiz victory - defeated Jamaica College 26-23" },
+    { year: "2025", event: "239 Years Strong", description: "Continuing tradition of academic excellence as Jamaica's 5th-oldest high school" },
   ];
 
   const achievements = [
@@ -40,14 +40,14 @@ const About = () => {
     {
       icon: BookOpen,
       title: "Quiz Excellence",
-      description: "2016 TVJ Schools' Challenge Quiz winners - first rural school to win in 20 years",
-      stats: "Quiz Champions"
+      description: "Two-time TVJ Schools' Challenge Quiz champions (2016, 2025) - defeating Jamaica College in 2025",
+      stats: "2x Quiz Champions"
     },
     {
       icon: Star,
       title: "Historic Legacy",
       description: "Fifth-oldest high school in Jamaica, established 1786",
-      stats: "238 Years"
+      stats: "239 Years"
     }
   ];
 
@@ -82,7 +82,7 @@ const About = () => {
               About Titchfield High School
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-              238 Years of Educational Excellence
+              239 Years of Educational Excellence
             </p>
             <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto">
               Since 1786, Titchfield High School has been a beacon of academic excellence, 
@@ -152,7 +152,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Founded</h4>
-                    <p className="text-muted-foreground">1786 - 238 years of excellence</p>
+                    <p className="text-muted-foreground">1786 - 239 years of excellence</p>
                   </div>
                 </div>
               </Card>

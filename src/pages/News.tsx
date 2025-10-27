@@ -4,95 +4,108 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, Trophy, Users, Award, AlertCircle, Megaphone } from "lucide-react";
 
 const News = () => {
-  const featuredNews = [
-    {
-      title: "SAVE THE DATE: Homecoming Reunion 2026",
-      date: "March 29 - April 5, 2026",
-      category: "Homecoming Event",
-      description: "Celebrating 240 Years (1786-2026) - Join us in Port Antonio, Jamaica for our historic Homecoming Reunion! Mark your calendars for this momentous celebration of Titchfield High School's legacy.",
-      source: "THS Administration",
-      link: "#",
-      image: "/lovable-uploads/ea54f5da-cf1f-4517-b6f9-84562cec2489.png",
-      featured: true,
-      isImageBanner: true
-    },
-    {
-      title: "Historic Schools' Challenge Quiz Victory",
-      date: "April 8, 2025",
-      category: "Academic Achievement",
-      description: "Titchfield High defeats Jamaica College 26-23 in the 2025 Schools' Challenge Quiz finals, bringing home the championship after years of dedication and hard work.",
-      source: "Jamaica Gleaner",
-      link: "https://jamaica-gleaner.com/article/news/20250408/titchfield-high-wins-2025-schools-challenge-quiz",
-      image: "🏆",
-      featured: true
-    },
-    {
-      title: "Big Gifts for SCQ Winners",
-      date: "April 15, 2025", 
-      category: "Recognition",
-      description: "The Schools' Challenge Quiz team receives significant rewards and recognition from various sponsors and supporters following their historic victory.",
-      source: "Jamaica Gleaner",
-      link: "https://jamaica-gleaner.com/article/news/20250415/big-gifts-titchfields-schools-challenge-quiz-winners",
-      image: "🎁"
-    },
-    {
-      title: "School Celebrates SCQ Victory",
-      date: "April 14, 2025",
-      category: "Celebration",
-      description: "Watch as Titchfield High celebrates their momentous Schools' Challenge Quiz championship with the entire school community joining in the festivities.",
-      source: "Jamaica Observer",
-      link: "https://www.jamaicaobserver.com/2025/04/14/watch-titchfield-high-celebrates-school-challenge-quiz-win/",
-      image: "🎉"
-    }
-  ];
+const featuredNews = [
+  {
+    id: 1,
+    title: "Schools' Challenge Quiz Champions 2025",
+    date: "April 9, 2025",
+    category: "Academic Achievement",
+    description: "Titchfield High School has won the 2025 TVJ Schools' Challenge Quiz, defeating Jamaica College 26-23 in a thrilling finale. This marks the second triumph for the Port Antonio-based school in the 55-year history of the competition, with their first win in 2016 when they became the first rural school to win in nearly 20 years.",
+    imageUrl: "🏆",
+    link: "https://radiojamaicanewsonline.com/local/titchfield-high-wins-tvjs-schools-challenge-quiz-2025",
+    source: "Radio Jamaica News",
+    featured: true,
+    isImageBanner: false,
+    image: "🏆"
+  },
+  {
+    id: 2,
+    title: "Celebrating 239 Years of Excellence",
+    date: "2025",
+    category: "Milestone",
+    description: "Since its founding in 1786, Titchfield High School continues to be a beacon of academic excellence in Jamaica. As the fifth-oldest high school in the country, THS maintains impressive pass rates of 85% in CSEC and 88% in CAPE examinations.",
+    imageUrl: "🎓",
+    link: null,
+    source: "School Records",
+    featured: false,
+    isImageBanner: false,
+    image: "🎓"
+  },
+  {
+    id: 3,
+    title: "Academic Excellence Continues",
+    date: "2024-2025",
+    category: "Academics",
+    description: "Titchfield High School maintains its reputation for academic excellence with consistent CSEC pass rates of 85% and CAPE pass rates of 88%. Our dedicated faculty and motivated students continue to set high standards in education.",
+    imageUrl: "📚",
+    link: null,
+    source: "Academic Affairs Office",
+    featured: false,
+    isImageBanner: false,
+    image: "📚"
+  },
+  {
+    id: 4,
+    title: "Historic Fort George Campus",
+    date: "Ongoing",
+    category: "Heritage",
+    description: "Located at 22 Fort George Street, our historic campus sits on the site of the former Fort George barracks, acquired by the Jamaica School Commission in 1883. The Battery wall and cannons overlooking the sea remain iconic features of our campus.",
+    imageUrl: "🏰",
+    link: null,
+    source: "School History",
+    featured: false,
+    isImageBanner: false,
+    image: "🏰"
+  }
+];
 
-  const recentNews = [
-    {
-      title: "Shift System for Learning",
-      date: "September 4, 2024",
-      category: "Infrastructure",
-      description: "Titchfield students implement innovative learning schedule to maximize educational opportunities despite space constraints.",
-      source: "Jamaica Observer",
-      link: "https://www.jamaicaobserver.com/2024/09/04/titchfield-students-will-take-turns-learning/",
-      urgency: "info"
-    },
-    {
-      title: "Progress at Titchfield High",
-      date: "September 5, 2023",
-      category: "Development",
-      description: "Significant progress reported at Titchfield High School with ongoing improvements to facilities and academic programs.",
-      source: "Jamaica Observer", 
-      link: "https://www.jamaicaobserver.com/2023/09/05/progress-made-at-titchfield-high-more-to-do/",
-      urgency: "positive"
-    },
-    {
-      title: "Alumni Achievement: BAME Nurse of the Year",
-      date: "2024",
-      category: "Alumni Success",
-      description: "Marsha Jones, THS alumna, honored as BAME Nurse of the Year for outstanding leadership in NHS South West London.",
-      source: "School Reports",
-      link: "#",
-      urgency: "success"
-    },
-    {
-      title: "Young Academic Star Shines",
-      date: "2024",
-      category: "Academic Excellence",
-      description: "14-year-old Shaynel Hines earns distinctions in Mathematics and Additional Mathematics at CSEC level.",
-      source: "School Reports",
-      link: "#",
-      urgency: "success"
-    }
-  ];
+const categories = [
+  { name: "Academic", count: 12 },
+  { name: "Sports", count: 8 },
+  { name: "Alumni", count: 6 },
+  { name: "Events", count: 15 },
+  { name: "Awards", count: 9 },
+  { name: "Community", count: 5 }
+];
 
-  const categories = [
-    { name: "All News", count: featuredNews.length + recentNews.length },
-    { name: "Academic Achievement", count: 4 },
-    { name: "Sports", count: 2 },
-    { name: "Alumni Success", count: 3 },
-    { name: "Infrastructure", count: 2 },
-    { name: "Recognition", count: 1 }
-  ];
+const recentNews = [
+  {
+    title: "CSEC & CAPE Excellence",
+    category: "Academics",
+    description: "THS students continue to excel with 85% CSEC and 88% CAPE pass rates, demonstrating our commitment to academic excellence and quality education.",
+    date: "2024-2025 Academic Year",
+    urgency: "success",
+    source: "Academic Affairs",
+    link: "#"
+  },
+  {
+    title: "Fort George Heritage Site",
+    category: "Heritage",
+    description: "Our historic campus at 22 Fort George Street remains a testament to Jamaica's colonial history, with the Battery wall and cannons still standing as iconic landmarks.",
+    date: "Ongoing",
+    urgency: "info",
+    source: "School Heritage",
+    link: "#"
+  },
+  {
+    title: "2016 Quiz Victory",
+    category: "Historic Achievement",
+    description: "THS became the first rural school in nearly 20 years to win the TVJ Schools' Challenge Quiz, setting the stage for our 2025 victory.",
+    date: "2016",
+    urgency: "positive",
+    source: "School Archives",
+    link: "#"
+  },
+  {
+    title: "Fifth-Oldest High School",
+    category: "Heritage",
+    description: "Established in 1786, Titchfield High School proudly holds the distinction of being Jamaica's fifth-oldest high school, serving generations of students.",
+    date: "Since 1786",
+    urgency: "info",
+    source: "School History",
+    link: "#"
+  }
+];
 
   const getUrgencyColor = (urgency: string) => {
     switch (urgency) {

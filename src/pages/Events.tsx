@@ -7,69 +7,13 @@ import { Calendar, MapPin, Clock, Users, Star, Info, CalendarDays } from "lucide
 
 const Events = () => {
   const homecomingSchedule = [
-    {
-      date: "March 29, 2026",
-      event: "Meet & Greet",
-      location: "Bentley's, Bryan's Bay",
-      time: "All Day",
-      type: "Social"
-    },
-    {
-      date: "March 29, 2026", 
-      event: "Portland 5K Run/Walk and 10K Run",
-      location: "Port Antonio",
-      time: "Morning",
-      type: "Sports"
-    },
-    {
-      date: "March 30, 2026",
-      event: "Titchfield Day Parade",
-      location: "Port Antonio",
-      time: "All Day",
-      type: "Cultural"
-    },
-    {
-      date: "March 30-31, 2026",
-      event: "Career Workshops",
-      location: "THS Campus",
-      time: "Business Hours",
-      type: "Educational"
-    },
-    {
-      date: "April 1, 2026",
-      event: "Grand Gala Dinner",
-      location: "Jamaica Palace Hotel",
-      time: "Evening",
-      type: "Formal"
-    },
-    {
-      date: "April 2, 2026",
-      event: "WAGGLAS Health Fair",
-      location: "THS Campus",
-      time: "All Day",
-      type: "Health"
-    },
-    {
-      date: "April 3, 2026",
-      event: "Sports Day (Hosted by Class of '86)",
-      location: "THS Campus",
-      time: "All Day",
-      type: "Sports"
-    },
-    {
-      date: "April 4, 2026",
-      event: "Family Fun Day",
-      location: "THS Campus",
-      time: "All Day",
-      type: "Family"
-    },
-    {
-      date: "April 5, 2026",
-      event: "Thanksgiving Service",
-      location: "Christ Church Anglican",
-      time: "Morning",
-      type: "Religious"
-    }
+    { time: "Friday 7:00 PM", date: "March 27, 2026", event: "Welcome Reception", location: "School Grounds", description: "Registration and informal meet-and-greet for returning alumni", type: "Social" },
+    { time: "Saturday 9:00 AM", date: "March 28, 2026", event: "Campus Tours", location: "School Campus", description: "Guided tours of renovated facilities and historic sites including The Battery", type: "Tour" },
+    { time: "Saturday 12:00 PM", date: "March 28, 2026", event: "Alumni Lunch", location: "School Cafeteria", description: "Reunion lunch with class meetups and networking", type: "Meal" },
+    { time: "Saturday 3:00 PM", date: "March 28, 2026", event: "Sports Day", location: "Sports Field", description: "Alumni vs Current Students friendly matches", type: "Sports" },
+    { time: "Saturday 7:00 PM", date: "March 28, 2026", event: "Homecoming Dance", location: "The Ruins, Port Antonio", description: "Formal evening celebration at historic venue", type: "Social" },
+    { time: "Sunday 10:00 AM", date: "March 29, 2026", event: "Church Service", location: "Christ Church, Port Antonio", description: "Traditional thanksgiving service", type: "Religious" },
+    { time: "Sunday 1:00 PM", date: "March 29, 2026", event: "Farewell Brunch", location: "School Grounds", description: "Final gathering before departure", type: "Meal" },
   ];
 
   const getEventTypeBadge = (type: string) => {
@@ -92,50 +36,82 @@ const Events = () => {
   };
   const upcomingEvents = [
     {
-      title: "SAVE THE DATE: Homecoming Reunion 2026",
-      date: "March 29 - April 5, 2026",
-      time: "Multiple Events",
-      location: "Port Antonio, Jamaica",
-      category: "Homecoming",
-      description: "Celebrating 240 Years (1786-2026) - Join us for our historic Homecoming Reunion! A week-long celebration of Titchfield High School's legacy, featuring alumni gatherings, school tours, cultural events, and special ceremonies.",
-      image: "/lovable-uploads/ea54f5da-cf1f-4517-b6f9-84562cec2489.png",
+      id: 1,
+      title: "Homecoming Weekend 2026",
+      date: "March 27-29, 2026",
+      time: "All Day",
+      location: "THS Campus & Port Antonio",
+      description: "Annual homecoming celebration bringing alumni and the school community together for a weekend of festivities, including the traditional Homecoming Dance at the Ruins.",
       featured: true,
-      status: "upcoming"
+      category: "Alumni Event",
+      status: "In Planning",
+      image: "/lovable-uploads/ths-aerial-campus.jpg"
     },
     {
-      title: "Annual Founder's Day Celebration",
-      date: "TBA 2025",
-      time: "9:00 AM - 3:00 PM",
-      location: "THS Campus",
-      category: "School Tradition",
-      description: "Celebrating the founding of Titchfield High School with special ceremonies, performances, and recognition of achievements.",
+      id: 2,
+      title: "CSEC Examinations",
+      date: "May-June 2025",
+      time: "9:00 AM",
+      location: "Examination Hall",
+      description: "Caribbean Secondary Education Certificate examinations for Grade 11 students.",
       featured: false,
-      status: "planning"
+      category: "Academic",
+      status: "Upcoming",
+      image: null
     },
     {
-      title: "Sports Day Championships",
-      date: "TBA 2025",
-      time: "8:00 AM - 4:00 PM", 
-      location: "THS Athletic Grounds",
-      category: "Sports",
-      description: "Annual inter-house sporting competitions featuring track and field, team sports, and athletic excellence.",
+      id: 3,
+      title: "CAPE Examinations",
+      date: "May-June 2025",
+      time: "9:00 AM",
+      location: "Examination Hall",
+      description: "Caribbean Advanced Proficiency Examination for Sixth Form students.",
       featured: false,
-      status: "planning"
+      category: "Academic",
+      status: "Upcoming",
+      image: null
+    },
+    {
+      id: 4,
+      title: "Graduation Ceremony 2025",
+      date: "July 2025",
+      time: "6:00 PM",
+      location: "School Grounds",
+      description: "Annual graduation ceremony celebrating our newest alumni and their achievements.",
+      featured: false,
+      category: "Ceremony",
+      status: "Upcoming",
+      image: null
     }
   ];
 
   const pastEvents = [
     {
+      id: 1,
       title: "Schools' Challenge Quiz Victory Celebration",
       date: "April 2025",
       category: "Academic",
-      description: "Celebrated our historic Schools' Challenge Quiz championship victory over Jamaica College."
+      description: "Port Antonio and school community celebrated THS's historic 2025 Schools' Challenge Quiz championship victory over Jamaica College.",
+      attendees: "500+",
+      highlights: "Recognition ceremony by Portland Municipal Corporation"
     },
     {
-      title: "Alumni Sports Equipment Donation",
+      id: 2,
+      title: "238th Anniversary Celebrations",
       date: "2024",
-      category: "Alumni",
-      description: "Andrew O'Geare and TPSSA donated netball equipment to support our athletic programs."
+      category: "Milestone",
+      description: "Celebrated 238 years of educational excellence with church service at Christ Church and campus events honoring THS's rich history.",
+      attendees: "800+",
+      highlights: "Historical exhibition, alumni testimonials"
+    },
+    {
+      id: 3,
+      title: "2016 Quiz Championship Celebration",
+      date: "2016",
+      category: "Academic",
+      description: "THS celebrated becoming the first rural school in nearly 20 years to win the TVJ Schools' Challenge Quiz.",
+      attendees: "600+",
+      highlights: "Community parade, school assembly"
     }
   ];
 
