@@ -132,6 +132,14 @@ const Alumni = () => {
       photo: schoolLogo
     },
     {
+      name: "Dr. Donald Rhodd",
+      class: "Class of 1990s",
+      achievement: "Former MP & Education Innovator",
+      field: "Politics, Healthcare & Academia",
+      description: "Optometrist who served as PNP MP for East Portland (1997-2012), continuing his father Keith Rhodd's political legacy. Pioneered Jamaica's first online Master of Education in Leadership for Early Childhood Development (2005). Known for gentlemanly politics and constituency work in education and health. Post-politics focused on academia and optometry—a true 'Stars of the East' figure",
+      photo: schoolLogo
+    },
+    {
       name: "Prof. Manley West, OM",
       class: "1929-2012",
       achievement: "Pharmacologist & Research Pioneer",
