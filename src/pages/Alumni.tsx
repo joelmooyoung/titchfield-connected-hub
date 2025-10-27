@@ -124,6 +124,14 @@ const Alumni = () => {
       photo: bryanSykesPhoto
     },
     {
+      name: "Judge Margaret Ramsay-Hale",
+      class: "Titchfield Alumna",
+      achievement: "First Female Chief Justice of Cayman Islands",
+      field: "Law & Justice",
+      description: "Jamaican legal trailblazer with BSc (Econ) from LSE and LLB from UWI. First female Chief Justice of Cayman Islands (2023). Previously Chief Justice of Turks & Caicos (2011-2014), Chief Magistrate and Magistrate in Cayman, and Resident Magistrate/Family Court Judge in Jamaica (1995-1997). Global advocate for judicial independence and women in Caribbean judiciary",
+      photo: schoolLogo
+    },
+    {
       name: "Prof. Manley West, OM",
       class: "1929-2012",
       achievement: "Pharmacologist & Research Pioneer",
