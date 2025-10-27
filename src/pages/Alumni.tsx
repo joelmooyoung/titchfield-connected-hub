@@ -148,6 +148,14 @@ const Alumni = () => {
       photo: schoolLogo
     },
     {
+      name: "Richard 'Richie B' Burgess",
+      class: "Class of 1990s",
+      achievement: "Iconic Radio Personality 'The Party Master'",
+      field: "Broadcasting & Entertainment",
+      description: "Legendary radio personality known for energetic style and chart-topping shows since the 1990s. Hosted Top of the Morning on The Edge 105 FM (2020-2021) and Up & Go with Richie on Bridge 99 FM (2021-present), targeting diaspora with infotainment. Honored by Reggae Music Achievement Awards; also excels in promotions, artist management, and record production",
+      photo: schoolLogo
+    },
+    {
       name: "Prof. Manley West, OM",
       class: "1929-2012",
       achievement: "Pharmacologist & Research Pioneer",
