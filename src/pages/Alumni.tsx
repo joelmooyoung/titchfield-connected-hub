@@ -108,11 +108,11 @@ const Alumni = () => {
       photo: donaldHarrisPhoto
     },
     {
-      name: "Michael Lee-Chin",
-      class: "Born 1951",
-      achievement: "Billionaire Philanthropist & Investor",
+      name: "Michael Lee-Chin, OJ, OOnt",
+      class: "Class of 1962-1969",
+      achievement: "Billionaire Investor & Philanthropist",
       field: "Business & Philanthropy",
-      description: "Self-made billionaire (net worth ~$2B), founder of Portland Holdings. Chairs Caribbean Investment Fund, major donor to UWI arts center and Jamaican education",
+      description: "Born January 3, 1951 in Port Antonio. Attended Titchfield 1962-1969, working landscaping at Frenchman's Cove (1965) and scrubbing engines on Jamaica Queen cruise ship (1966). McMaster BEng (1974), pivoted from bouncer to financial advisor. Founded Portland Holdings (1990), managing $1B+ in assets across media, tourism, healthcare, telecom. Net worth $3.95B+ (2017). Major philanthropist: $30M to ROM Crystal wing, $10M to UWI Rotman Institute, $5M to McMaster. Order of Jamaica (OJ), Order of Ontario (OOnt, 2017). Embodies 'Stars of the East' spirit—proof Portland's grit powers global impact",
       photo: michaelLeeChinPhoto
     },
     {
