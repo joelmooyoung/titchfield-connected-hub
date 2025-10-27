@@ -27,15 +27,15 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>(876) 123-4567</span>
+              <span>(876) 993-2618</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>info@titchfieldhigh.edu.jm</span>
+              <span>info@titchfieldhigh.com</span>
             </div>
           </div>
           <div className="hidden md:block">
-            <span>Excellence in Education Since 1890</span>
+            <span>Excellence in Education Since 1786</span>
           </div>
         </div>
       </div>
