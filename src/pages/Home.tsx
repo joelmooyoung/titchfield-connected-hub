@@ -110,6 +110,9 @@ const Home = () => {
         </div>
         
         <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
+          <Badge className="mb-4 bg-secondary text-secondary-foreground px-4 py-2 text-sm font-semibold">
+            ✓ Official Website
+          </Badge>
           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6">
             Welcome to
             <span className="block text-secondary">Titchfield High School</span>

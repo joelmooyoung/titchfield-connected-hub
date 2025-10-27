@@ -34,7 +34,10 @@ const Header = () => {
               <span>info@titchfieldhigh.edu.jm</span>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-3">
+            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs font-semibold">
+              ✓ Official Website
+            </span>
             <span>Excellence in Education Since 1786</span>
           </div>
         </div>
