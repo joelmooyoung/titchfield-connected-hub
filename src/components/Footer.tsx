@@ -165,15 +165,15 @@ const Footer = () => {
               © {currentYear} Titchfield High School. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="/privacy" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              <NavLink to="/privacy" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 Privacy Policy
-              </a>
-              <a href="/terms" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              </NavLink>
+              <NavLink to="/terms" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 Terms of Service
-              </a>
-              <a href="/donate" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              </NavLink>
+              <NavLink to="/donate" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 Donate
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
