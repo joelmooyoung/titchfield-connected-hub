@@ -93,89 +93,112 @@ const Alumni = () => {
     {
       name: "Prof. Edward Baugh",
       class: "1936-2023",
-      achievement: "Renowned Poet & Scholar",
-      field: "Literature",
-      description: "Distinguished University of the West Indies professor and celebrated poet",
+      achievement: "Renowned Poet & Literary Scholar",
+      field: "Literature & Academia",
+      description: "Distinguished UWI professor emeritus, celebrated Caribbean poet, and leading authority on Derek Walcott's work",
       photo: edwardBaughPhoto
     },
     {
       name: "Donald J. Harris",
       class: "Born 1938",
-      achievement: "Economist & Former VP Harris's Father",
+      achievement: "Stanford Economist",
       field: "Economics",
-      description: "Distinguished economist and father of former U.S. Vice President Kamala Harris",
+      description: "Distinguished Stanford University economist and father of U.S. Vice President Kamala Harris, specializing in development economics",
       photo: donaldHarrisPhoto
     },
     {
       name: "Michael Lee-Chin",
       class: "Born 1951",
-      achievement: "Billionaire Businessman",
+      achievement: "Billionaire Philanthropist",
       field: "Business & Philanthropy",
-      description: "Jamaican-Canadian billionaire businessman and philanthropist",
+      description: "Jamaican-Canadian billionaire, founder of Portland Holdings, and major benefactor of educational institutions across the Caribbean",
       photo: michaelLeeChinPhoto
     },
     {
-      name: "Bryan Sykes",
+      name: "Hon. Bryan Sykes",
       class: "Appointed 2019",
       achievement: "Chief Justice of Jamaica",
       field: "Law & Justice",
-      description: "Appointed Chief Justice of Jamaica in 2019",
+      description: "Chief Justice of Jamaica since 2019, leading the nation's judiciary with distinction and integrity",
       photo: bryanSykesPhoto
+    },
+    {
+      name: "Noel George Dexter, OD",
+      class: "1938-2019",
+      achievement: "Music Educator & Composer",
+      field: "Music & Education",
+      description: "Order of Distinction recipient, renowned choral composer, and music educator who shaped Jamaican musical heritage",
+      photo: hopeAndersonPhoto
     },
     {
       name: "Dever Orgill",
       class: "Born 1990",
       achievement: "International Footballer",
-      field: "Athletics",
-      description: "Jamaican international footballer and national youth team captain",
+      field: "Athletics & Sports",
+      description: "Jamaica national team footballer who represented the country at international level and captained youth teams",
       photo: deverOrgillPhoto
     },
     {
-      name: "Hope Arthurine Anderson",
+      name: "Dr. Hope Anderson",
       class: "1950-2016",
       achievement: "Physician & Chess Champion",
       field: "Medicine & Sports",
-      description: "Physician, former Jamaican chess champion, and educator",
+      description: "Pioneering physician, former Jamaican national chess champion, and dedicated educator who broke barriers",
       photo: hopeAndersonPhoto
+    },
+    {
+      name: "Hon. Daryl Vaz, MP",
+      class: "Class of 1980s",
+      achievement: "Government Minister",
+      field: "Politics & Public Service",
+      description: "Member of Parliament for West Portland and Minister of Science, Energy, Telecommunications and Transport",
+      photo: deverOrgillPhoto
     }
   ];
 
   const upcomingEvents = [
     {
-      title: "Annual Alumni Homecoming",
-      date: "April 25-27, 2024",
+      title: "Annual Alumni Homecoming 2025",
+      date: "November 21-23, 2025",
       location: "THS Campus, Port Antonio",
-      description: "Three-day celebration with gala dinner, campus tours, and class reunions",
+      description: "Three-day celebration with gala dinner, campus tours, class reunions, and sports activities. Celebrating 239 years of excellence!",
       organizer: "Main Alumni Association"
     },
     {
-      title: "North America Chapter Reunion",
-      date: "June 15, 2024",
+      title: "North America Chapter Annual Reunion",
+      date: "July 12, 2025",
       location: "Toronto, Canada",
-      description: "Annual networking event and scholarship fundraiser",
+      description: "Annual networking event, scholarship fundraiser, and recognition of distinguished alumni achievers",
       organizer: "THS Alumni North America"
     },
     {
-      title: "UK Chapter Professional Summit",
-      date: "July 20, 2024",
+      title: "UK Chapter Professional Development Summit",
+      date: "September 20, 2025",
       location: "London, England",
-      description: "Career development and mentorship conference",
+      description: "Career development workshops, mentorship conference, and networking opportunities for Caribbean professionals",
       organizer: "THS Alumni UK Chapter"
     },
     {
-      title: "Caribbean Heritage Festival",
-      date: "August 10, 2024",
+      title: "South Florida Caribbean Heritage Festival",
+      date: "August 16, 2025",
       location: "Miami, Florida",
-      description: "Cultural celebration and community outreach",
+      description: "Cultural celebration, community outreach, and student scholarship drive featuring Caribbean cuisine and entertainment",
       organizer: "THS Alumni South Florida"
+    },
+    {
+      title: "Virtual Alumni Networking Session",
+      date: "Monthly - First Saturday",
+      location: "Online (Zoom)",
+      description: "Monthly virtual meetups connecting THS alumni worldwide for professional networking and community building",
+      organizer: "THS Alumni Association"
     }
   ];
 
   const achievements = [
-    { icon: Users, label: "Total Alumni", value: "15,000+", description: "Worldwide" },
-    { icon: Globe, label: "Countries", value: "50+", description: "Global Reach" },
-    { icon: Heart, label: "Scholarships", value: "$2M+", description: "Annually" },
-    { icon: Award, label: "Notable Achievers", value: "1,000+", description: "Leaders" }
+    { icon: Users, label: "Total Alumni", value: "15,000+", description: "Since 1786" },
+    { icon: Globe, label: "Countries", value: "50+", description: "Global Presence" },
+    { icon: Heart, label: "Scholarships", value: "$2M+", description: "Given Annually" },
+    { icon: Award, label: "Distinguished Leaders", value: "1,000+", description: "Across Fields" }
   ];
 
   return (
@@ -188,12 +211,13 @@ const Alumni = () => {
               THS Alumni Network
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8">
-              15,000+ Graduates Making a Difference Worldwide
+              239 Years of Excellence • 15,000+ Graduates Worldwide
             </p>
             <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto mb-8">
-              Our alumni community spans the globe, united by shared values and 
-              commitment to excellence. Connect with fellow graduates and support 
-              the next generation of THS leaders.
+              From Port Antonio to the world stage - our alumni community spans the globe, 
+              featuring distinguished leaders in government, business, academia, sports, and the arts. 
+              United by the motto "Virtute et Eruditione" (By Virtue and Learning), THS graduates 
+              continue to make their mark across every field of human endeavor.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="secondary" size="lg">
@@ -321,7 +345,7 @@ const Alumni = () => {
               Notable Alumni
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              THS graduates making their mark in various fields around the world
+              Distinguished leaders, innovators, and achievers proudly representing Titchfield High School across the globe
             </p>
           </div>
           
