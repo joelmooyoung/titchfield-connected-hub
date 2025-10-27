@@ -34,59 +34,60 @@ const Alumni = () => {
 
   const alumniChapters = [
     {
-      name: "THS Alumni Association (Main)",
+      name: "THS Alumni Network (Official Main Association)",
       location: "Jamaica",
       established: "1920",
       members: "5,000+",
       president: "Dr. Marcus Brown",
-      description: "The founding alumni association supporting current students and school development.",
+      description: "The founding alumni association that supports current students and school development.",
       contact: "president@thsalumni.org.jm",
-      website: "https://thsalumni.org.jm",
+      website: "https://titchfieldhigh.edu.jm/alumni",
       activities: ["Annual Scholarship Fund", "School Infrastructure Projects", "Mentorship Programs"]
     },
     {
-      name: "THS Alumni North America",
-      location: "USA & Canada",
-      established: "1975",
-      members: "3,500+",
-      president: "Mrs. Angela Thompson",
-      description: "Connecting THS graduates across the United States and Canada.",
-      contact: "president@thsalumni-na.org",
-      website: "https://thsalumni-na.org",
-      activities: ["Student Exchange Programs", "Annual Reunion", "Scholarship Fund"]
-    },
-    {
-      name: "THS Alumni UK Chapter",
-      location: "United Kingdom",
-      established: "1985",
-      members: "2,200+",
-      president: "Dr. Winston Clarke",
-      description: "Supporting THS graduates and promoting Caribbean education in the UK.",
-      contact: "president@thsalumni-uk.org",
-      website: "https://thsalumni-uk.org",
-      activities: ["Professional Networking", "Educational Partnerships", "Cultural Events"]
-    },
-    {
-      name: "THS Alumni Toronto",
-      location: "Toronto, Canada",
-      established: "1990",
-      members: "1,800+",
-      president: "Prof. Sandra Williams",
-      description: "The largest Canadian chapter with strong community ties.",
-      contact: "president@thsalumni-toronto.ca",
-      website: "https://thsalumni-toronto.ca",
-      activities: ["Community Outreach", "Youth Mentorship", "Annual Gala"]
-    },
-    {
-      name: "THS Alumni South Florida",
-      location: "Miami, Florida",
+      name: "Alumni Association of Titchfield High School Inc.",
+      location: "South Florida (West Palm Beach, FL)",
       established: "2000",
       members: "1,000+",
       president: "Paul 'Paca' Perry",
-      description: "Vibrant chapter serving the South Florida Caribbean community. Led $43K donation (2025) for scholarships and library, plus $5K Neville Beharie awards.",
-      contact: "president@thsalumni-fl.org",
-      website: "https://thsalumni-fl.org",
-      activities: ["Hurricane Relief Efforts", "Student Support", "Scholarship Fundraising", "Cultural Programs"]
+      description: "Established to provide economic support to the school. Vibrant chapter serving the South Florida Caribbean community. Led $43K donation (2025) for scholarships and library, plus $5K Neville Beharie awards.",
+      contact: "Via Facebook",
+      website: "https://www.facebook.com/p/THE-ALUMNI-ASSOC-OF-TITCHFIELD-HIGH-SCHOOL-INC-100079504813399/",
+      activities: ["Scholarship Fundraising", "Student Support", "Library Projects", "Community Outreach"],
+      charityProfile: "https://www.guidestar.org/profile/26-0680521"
+    },
+    {
+      name: "Titchfield Past Students Association Ontario Chapter",
+      location: "Ontario, Canada",
+      established: "1985",
+      members: "1,800+",
+      president: "Chapter Executive",
+      description: "Represents alumni in Ontario, Canada; focuses on liaison activities and fundraising for the school.",
+      contact: "Via website",
+      website: "https://tpsaontario.ca/",
+      activities: ["Professional Networking", "Fundraising", "Community Engagement", "Youth Mentorship"]
+    },
+    {
+      name: "Titchfield Past Students Sports Association Inc. (TPSSA)",
+      location: "Multi-Regional",
+      established: "Sports Legacy Program",
+      members: "500+",
+      president: "Andrew O'Geare (Secretary)",
+      description: "Established by alumni and former athletes to support sports programs at the school. Focuses on track, netball, and other athletic initiatives.",
+      contact: "Via website",
+      website: "https://tpssa.org/",
+      activities: ["Sports Equipment Donations", "Athletic Scholarships", "Team Sponsorship", "Sports Events"]
+    },
+    {
+      name: "Titchfield High Alumni NY",
+      location: "New York, USA",
+      established: "Alumni Network",
+      members: "500+",
+      president: "NY Chapter Executive",
+      description: "Association for former students and friends in New York, focused on support from an alumni perspective.",
+      contact: "Via Facebook",
+      website: "https://www.facebook.com/p/Titchfield-High-Alumni-NY-100064317774660/",
+      activities: ["Networking Events", "Fundraising", "Mentorship", "Annual Reunions"]
     }
   ];
 

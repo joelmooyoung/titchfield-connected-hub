@@ -2,15 +2,13 @@ import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { 
   Facebook, 
-  Twitter, 
   Instagram, 
   Youtube,
   Mail,
   Phone,
   MapPin,
   Users,
-  GraduationCap,
-  Linkedin
+  GraduationCap
 } from "lucide-react";
 import schoolCrest from "@/assets/ths-crest-new.png";
 
@@ -27,19 +25,17 @@ const Footer = () => {
   ];
 
   const alumniAssociations = [
-    { name: "THS Alumni Association (Main)", href: "/alumni" },
-    { name: "North America Chapter", href: "/alumni" },
-    { name: "UK Chapter", href: "/alumni" },
-    { name: "Canada Chapter", href: "/alumni" },
-    { name: "Local Jamaica Chapter", href: "/alumni" },
+    { name: "THS Alumni Network (Main)", href: "https://titchfieldhigh.edu.jm/alumni", external: true },
+    { name: "South Florida Chapter", href: "https://www.facebook.com/p/THE-ALUMNI-ASSOC-OF-TITCHFIELD-HIGH-SCHOOL-INC-100079504813399/", external: true },
+    { name: "Ontario Chapter", href: "https://tpsaontario.ca/", external: true },
+    { name: "Sports Association (TPSSA)", href: "https://tpssa.org/", external: true },
+    { name: "New York Chapter", href: "https://www.facebook.com/p/Titchfield-High-Alumni-NY-100064317774660/", external: true },
   ];
 
   const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "https://facebook.com/titchfieldhigh" },
-    { name: "Twitter", icon: Twitter, href: "https://twitter.com/titchfieldhigh" },
-    { name: "Instagram", icon: Instagram, href: "https://instagram.com/titchfieldhigh" },
-    { name: "YouTube", icon: Youtube, href: "https://youtube.com/titchfieldhigh" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/school/titchfield-high-school" },
+    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/titchfieldhigh/" },
+    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/titchfieldhighschool/" },
+    { name: "YouTube", icon: Youtube, href: "https://www.youtube.com/@titchfieldhighschool" },
   ];
 
   return (
@@ -110,12 +106,23 @@ const Footer = () => {
             <ul className="space-y-2">
               {alumniAssociations.map((association) => (
                 <li key={association.name}>
-                  <NavLink
-                    to={association.href}
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
-                  >
-                    {association.name}
-                  </NavLink>
+                  {association.external ? (
+                    <a
+                      href={association.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                    >
+                      {association.name}
+                    </a>
+                  ) : (
+                    <NavLink
+                      to={association.href}
+                      className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                    >
+                      {association.name}
+                    </NavLink>
+                  )}
                 </li>
               ))}
             </ul>
