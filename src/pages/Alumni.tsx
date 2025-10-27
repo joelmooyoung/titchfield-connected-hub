@@ -116,11 +116,11 @@ const Alumni = () => {
       photo: michaelLeeChinPhoto
     },
     {
-      name: "Hon. Bryan Sykes",
+      name: "The Hon. Bryan Sykes, OJ",
       class: "Appointed 2019",
       achievement: "Chief Justice of Jamaica",
       field: "Law & Justice",
-      description: "Chief Justice of Jamaica since 2019, leading the nation's judiciary with distinction and integrity",
+      description: "Chief Justice of Jamaica since 2019 (appointed by Gov. Gen. Sir Patrick Allen). Supreme Court Puisne Judge (2007-2018) and Court of Appeal Judge (2013-2018), advanced judicial reforms including digital case management. Holds LLB from UWI and LLM from London. Titchfield's most prominent legal alumnus, embodying the school's motto 'Virtute et Eruditione' (By Valor and Learning)",
       photo: bryanSykesPhoto
     },
     {
