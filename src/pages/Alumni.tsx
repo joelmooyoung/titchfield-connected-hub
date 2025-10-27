@@ -17,7 +17,7 @@ import {
   Trophy
 } from "lucide-react";
 
-// Alumni photos
+// Alumni photos - only use actual photos we have
 import edwardBaughPhoto from "@/assets/alumni/edward-baugh.jpg";
 import deverOrgillPhoto from "@/assets/alumni/dever-orgill.jpg";
 import hopeAndersonPhoto from "@/assets/alumni/hope-anderson.jpg";
@@ -25,6 +25,7 @@ import hopeAndersonPhoto from "@/assets/alumni/hope-anderson.jpg";
 const donaldHarrisPhoto = "/lovable-uploads/4a57a7bb-13d9-4202-b047-f199056bc876.png";
 const michaelLeeChinPhoto = "/lovable-uploads/60c11692-1bdf-43c6-bd35-0944caf1de83.png";
 const bryanSykesPhoto = "/lovable-uploads/19001559-740d-461e-995b-34fd5453b138.png";
+const schoolLogo = "/titchfield-crest.png"; // Use school logo for alumni without photos
 
 const Alumni = () => {
   useEffect(() => {
@@ -128,7 +129,7 @@ const Alumni = () => {
       achievement: "Pharmacologist & Research Pioneer",
       field: "Medical Research",
       description: "Pioneering UWI pharmacologist renowned for cannabis-based glaucoma research and development of Canasol eye drops",
-      photo: hopeAndersonPhoto
+      photo: schoolLogo
     },
     {
       name: "Dr. Kingsley Chin",
@@ -136,7 +137,7 @@ const Alumni = () => {
       achievement: "Orthopedic Spine Surgeon",
       field: "Medicine & Business",
       description: "Harvard-educated orthopedic surgeon, CEO, and philanthropist who attended Titchfield before earning a football scholarship to Columbia University",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Dr. Answorth Allen",
@@ -144,7 +145,7 @@ const Alumni = () => {
       achievement: "Sports Medicine Surgeon",
       field: "Orthopedic Surgery",
       description: "Associate Surgeon-in-Chief at Hospital for Special Surgery in New York, renowned sports medicine specialist",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Konya Plummer",
@@ -152,7 +153,7 @@ const Alumni = () => {
       achievement: "Reggae Girlz Captain",
       field: "Women's Football",
       description: "Captain of Jamaica's Reggae Girlz, first Jamaican-born player drafted by NWSL, plays for Orlando Pride",
-      photo: hopeAndersonPhoto
+      photo: schoolLogo
     },
     {
       name: "Dever Orgill",
@@ -176,7 +177,7 @@ const Alumni = () => {
       achievement: "National Table Tennis Champion",
       field: "Athletics & Sports",
       description: "Multiple-time Jamaica national table tennis champion and prominent athlete representing Titchfield's sporting excellence",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Hon. Fred M. Jones, OBE",
@@ -184,7 +185,7 @@ const Alumni = () => {
       achievement: "Custos of Portland",
       field: "Public Service & Agriculture",
       description: "Distinguished planter and Custos Rotulorum of Portland from 1965-1971, served under Queen Elizabeth II",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Stevel Marc",
@@ -192,7 +193,7 @@ const Alumni = () => {
       achievement: "International Model & Actor",
       field: "Entertainment",
       description: "Mr. Titchfield 2000 who launched successful international modeling and acting career based in South Africa",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Kayleah Shelton",
@@ -200,7 +201,7 @@ const Alumni = () => {
       achievement: "White House HBCU Scholar",
       field: "Academia & Public Service",
       description: "2024 HBCU White House Scholar studying at University of the District of Columbia, recognized for academic excellence",
-      photo: hopeAndersonPhoto
+      photo: schoolLogo
     },
     {
       name: "Dr. Omar Newell",
@@ -208,7 +209,7 @@ const Alumni = () => {
       achievement: "Entrepreneur & Attorney",
       field: "Law & Business",
       description: "Northwestern University Law graduate, entrepreneur, and public figure who transferred to Titchfield during youth",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     },
     {
       name: "Zedan Martin",
@@ -216,7 +217,7 @@ const Alumni = () => {
       achievement: "Schools' Challenge Quiz Captain",
       field: "Academia",
       description: "Captain of Titchfield's victorious 2016 Schools' Challenge Quiz team, leading the school to championship glory",
-      photo: deverOrgillPhoto
+      photo: schoolLogo
     }
   ];
 
