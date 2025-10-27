@@ -148,6 +148,14 @@ const Alumni = () => {
       photo: schoolLogo
     },
     {
+      name: "Mooji (Anthony Paul Moo-Young)",
+      class: "Born January 29, 1954",
+      achievement: "Global Spiritual Teacher 'The Buddha of Brixton'",
+      field: "Spirituality & Philosophy",
+      description: "Port Antonio-born sage teaching Advaita Vedanta non-dual philosophy worldwide. Moved to London at 15, became street artist in Brixton. Awakened under guru Papaji in India (1993). Founded Monte Sahaja retreat center in Portugal (2007) with 100+ residents. Author of White Fire, Before I Am, Vaster Than Sky. Over 1M YouTube subscribers, ranked #37 in '100 Most Spiritually Influential Living People' (2019). His gentle, poetic style blends Jamaican warmth with Eastern wisdom—guiding seekers to self-realization through satsangs",
+      photo: schoolLogo
+    },
+    {
       name: "Richard 'Richie B' Burgess",
       class: "Class of 1990s",
       achievement: "Iconic Radio Personality 'The Party Master'",
