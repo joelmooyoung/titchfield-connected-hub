@@ -123,11 +123,35 @@ const Alumni = () => {
       photo: bryanSykesPhoto
     },
     {
-      name: "Noel George Dexter, OD",
-      class: "1938-2019",
-      achievement: "Music Educator & Composer",
-      field: "Music & Education",
-      description: "Order of Distinction recipient, renowned choral composer, and music educator who shaped Jamaican musical heritage",
+      name: "Prof. Manley West, OM",
+      class: "1929-2012",
+      achievement: "Pharmacologist & Research Pioneer",
+      field: "Medical Research",
+      description: "Pioneering UWI pharmacologist renowned for cannabis-based glaucoma research and development of Canasol eye drops",
+      photo: hopeAndersonPhoto
+    },
+    {
+      name: "Dr. Kingsley Chin",
+      class: "Class of 1970s",
+      achievement: "Orthopedic Spine Surgeon",
+      field: "Medicine & Business",
+      description: "Harvard-educated orthopedic surgeon, CEO, and philanthropist who attended Titchfield before earning a football scholarship to Columbia University",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Dr. Answorth Allen",
+      class: "Titchfield Alumnus",
+      achievement: "Sports Medicine Surgeon",
+      field: "Orthopedic Surgery",
+      description: "Associate Surgeon-in-Chief at Hospital for Special Surgery in New York, renowned sports medicine specialist",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Konya Plummer",
+      class: "Born 1997",
+      achievement: "Reggae Girlz Captain",
+      field: "Women's Football",
+      description: "Captain of Jamaica's Reggae Girlz, first Jamaican-born player drafted by NWSL, plays for Orlando Pride",
       photo: hopeAndersonPhoto
     },
     {
@@ -143,15 +167,55 @@ const Alumni = () => {
       class: "1950-2016",
       achievement: "Physician & Chess Champion",
       field: "Medicine & Sports",
-      description: "Pioneering physician, former Jamaican national chess champion, and dedicated educator who broke barriers",
+      description: "Pioneering physician, former Jamaican women's chess champion, and dedicated educator who broke barriers in multiple fields",
       photo: hopeAndersonPhoto
     },
     {
-      name: "Hon. Daryl Vaz, MP",
-      class: "Class of 1980s",
-      achievement: "Government Minister",
-      field: "Politics & Public Service",
-      description: "Member of Parliament for West Portland and Minister of Science, Energy, Telecommunications and Transport",
+      name: "Peter Moo-Young",
+      class: "Titchfield Alumnus",
+      achievement: "National Table Tennis Champion",
+      field: "Athletics & Sports",
+      description: "Multiple-time Jamaica national table tennis champion and prominent athlete representing Titchfield's sporting excellence",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Hon. Fred M. Jones, OBE",
+      class: "1890-1971",
+      achievement: "Custos of Portland",
+      field: "Public Service & Agriculture",
+      description: "Distinguished planter and Custos Rotulorum of Portland from 1965-1971, served under Queen Elizabeth II",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Stevel Marc",
+      class: "Class of 2000",
+      achievement: "International Model & Actor",
+      field: "Entertainment",
+      description: "Mr. Titchfield 2000 who launched successful international modeling and acting career based in South Africa",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Kayleah Shelton",
+      class: "Class of 2020s",
+      achievement: "White House HBCU Scholar",
+      field: "Academia & Public Service",
+      description: "2024 HBCU White House Scholar studying at University of the District of Columbia, recognized for academic excellence",
+      photo: hopeAndersonPhoto
+    },
+    {
+      name: "Dr. Omar Newell",
+      class: "Titchfield Transfer Student",
+      achievement: "Entrepreneur & Attorney",
+      field: "Law & Business",
+      description: "Northwestern University Law graduate, entrepreneur, and public figure who transferred to Titchfield during youth",
+      photo: deverOrgillPhoto
+    },
+    {
+      name: "Zedan Martin",
+      class: "Class of 2016",
+      achievement: "Schools' Challenge Quiz Captain",
+      field: "Academia",
+      description: "Captain of Titchfield's victorious 2016 Schools' Challenge Quiz team, leading the school to championship glory",
       photo: deverOrgillPhoto
     }
   ];
