@@ -132,6 +132,22 @@ const Alumni = () => {
       photo: schoolLogo
     },
     {
+      name: "Ishion Hutchinson",
+      class: "Titchfield Alumnus",
+      achievement: "Award-Winning Poet & Academic",
+      field: "Literature & Poetry",
+      description: "Acclaimed Jamaican poet and academic, author of multiple poetry collections and professor at Cornell University",
+      photo: schoolLogo
+    },
+    {
+      name: "Dr. Jimmy J. Brown",
+      class: "Titchfield Alumnus",
+      achievement: "Otolaryngologist & Academic",
+      field: "Medicine & Academia",
+      description: "U.S.-based otolaryngologist and academic physician, noted for contributions to medical education and ENT specialty",
+      photo: schoolLogo
+    },
+    {
       name: "Dr. Kingsley Chin",
       class: "Class of 1970s",
       achievement: "Orthopedic Spine Surgeon",
